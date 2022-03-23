@@ -6,7 +6,7 @@ body {
 a {
 	font-size: 14px;
 	line-height: 1.7;
-	color: #666666;
+	color: #973c35;
 	margin: 0px;
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
@@ -18,7 +18,7 @@ h2, h4, label {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h2, h4 {
+h2, h4, h1 {
   color: #973c35;
 }
 
@@ -28,7 +28,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-  color: #973c35;
+  color: #6b2823;
 }
 
 button {

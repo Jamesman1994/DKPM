@@ -7,40 +7,43 @@
         <meta http-equiv="cache-control" content="max-age=86400, public" />
         <meta content="" name="keywords">
         <meta content="DoorKnock Password Manager" name="description">
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' http://dkpm.com 'unsafe-inline' 'unsafe-eval'" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="stylesheet" href="css/register.css">
+        <link rel="stylesheet" href="css/toggle.css">
+        <link rel="icon" href="dkpm.ico">
     </head>
     <body>
         <main style="margin-left: auto;margin-right: auto">
-            <form class="dkpm-login-form validate-form" method="POST" autocomplete="off" id="dkpmForm">
+            <form class="validate-form" method="POST" autocomplete="off" id="dkpmForm">
                 <div class="form-header">
                     <a class="fas fa-arrow-left back-to-last" href="/login.html"></a>
-                    <img src="images/doorknock_logo.png" width="200" style="position:absolute;left:50%;transform: translate(-50%, 0);">
+                    <img src="images/doorknock_logo.png" width="250" style="position:absolute;left:50%;transform: translate(-50%, 0);">
+                    <label class="switch">
+                        <input type="checkbox" id="dark_light_mode" value="true">
+                        <span class="slider"></span>
+                    </label>
                 </div>
                 <div style="padding:20px">
                     <div class="container">
                         <h2>Register Your Own Account</h2>
                         <div class="row">
-                            <div class="input-group input-group-icon"><input type="email" placeholder="Email Adress" />
+                            <div class="input-group input-group-icon">
+                                <input type="email" placeholder="Email Adress" />
                                 <div class="input-icon fas fa-envelope"></div>
                             </div>
-                            <div class="input-group input-group-icon"><input type="password" placeholder="Password" />
+                            <div class="input-group input-group-icon" style="margin-bottom: 0px">
+                                <input type="password" placeholder="Password" />
                                 <div class="input-icon fas fa-key"></div>
                             </div>
-                            <div class="input-group input-group-icon"><input type="password" placeholder="Password" />
+                            <div class="input-group input-group-icon">
+                                <input type="password" placeholder="Retype Password" />
                                 <div class="input-icon fas fa-key"></div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-half">
-                                <div class="input-group input-group-icon"><input type="text" placeholder="Card CVC" />
-                                    <div class="input-icon fas fa-user"></div>
-                                </div>
                             </div>
                         </div>
                         <div class="row">
                             <h4>Terms and Conditions</h4>
-                            <div class="input-group"><input id="terms" type="checkbox"/><label for="terms">I accept the terms and conditions for signing up to this service, and hereby confirm I have read the privacy policy.</label></div>
+                            <div class="input-group"><input id="terms" type="checkbox"/><label for="terms" class="terms">I accept the <a href="/terms.html">terms and conditions</a> for signing up to this service, and hereby confirm I have read the privacy policy.</label></div>
                         </div>
                     </div>
                 </div>
@@ -50,9 +53,10 @@
                 </div>
             </form>
         </main>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/normal.js"></script>
-    <script defer src="js/swup.min.js"></script>
-    <script defer src="js/swup_animation.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <!--<script src="js/jquery-cookie.js"></script>-->
+        <script src="js/normal.js"></script>
+        <!--<script defer src="js/swup.min.js"></script>
+        <script defer src="js/swup_animation.js"></script>-->
     </body>
 </html>

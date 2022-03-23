@@ -10,29 +10,35 @@
         e.preventDefault();
         
         if (dkpmForm.checkValidity() && $('#user_email').val().length != 0 && $('#user_password').val().length != 0) {
-            const response = await fetch('http://dkpm.com/api/login_validation.php', {
+            const response = await fetch('http://dkpm.com/api/auth.php', {
                 method: 'POST',
                 body: new FormData(dkpmForm)
             });
     
             const result = await response.json();
-            const status = await result["status"];
         
-            if (status == "invalid") {
-                showValidate($('#user_email'));
-            } else {
-                if (status == "wrong") {
+            if (result.error) {
+                if (result.status == "invalid") {
                     Swal.fire({
                         position: 'center',
                         icon: 'error',
-                        title: '密碼錯誤',
+                        title: 'Invalid Email',
                         showConfirmButton: false,
                         timer: 1500
                     });
-                    showValidate($('#user_password'));
-                } else if (status == "correct") {
-                    location.href = 'register.html';
+                } else {
+                    if (result.status == "wrong") {
+                        Swal.fire({
+                            position: 'center',
+                            icon: 'error',
+                            title: 'Wrong Password',
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                    }
                 }
+            } else {
+                location.href = 'register.html';
             }
         } else {
             dkpmForm.reportValidity();
