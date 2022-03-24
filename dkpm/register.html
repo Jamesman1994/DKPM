@@ -25,25 +25,29 @@
                     </label>
                 </div>
                 <div style="padding:20px">
-                    <div class="container">
+                    <div class="container-dkpm">
                         <h2>Register Your Own Account</h2>
                         <div class="row">
                             <div class="input-group input-group-icon">
-                                <input type="email" placeholder="Email Adress" />
+                                <input type="email" placeholder="Email Adress" style="width: -webkit-fill-available;" name="user_email" id="user_email" required />
                                 <div class="input-icon fas fa-envelope"></div>
                             </div>
                             <div class="input-group input-group-icon" style="margin-bottom: 0px">
-                                <input type="password" placeholder="Password" />
+                                <input type="password" placeholder="Password" style="width: -webkit-fill-available;" name="user_password" id="user_password" required />
                                 <div class="input-icon fas fa-key"></div>
                             </div>
                             <div class="input-group input-group-icon">
-                                <input type="password" placeholder="Retype Password" />
+                                <input type="password" placeholder="Retype Password" style="width: -webkit-fill-available;" name="retype_password" id="retype_password" required />
                                 <div class="input-icon fas fa-key"></div>
                             </div>
                         </div>
                         <div class="row">
+                            <h4>You must choose one or more photos below for login</h4>
+                            <div style="width: -webkit-fill-available;text-align: center;" id="img_album"></div>
+                        </div>
+                        <div class="row">
                             <h4>Terms and Conditions</h4>
-                            <div class="input-group"><input id="terms" type="checkbox"/><label for="terms" class="terms">I accept the <a href="/terms.html">terms and conditions</a> for signing up to this service, and hereby confirm I have read the privacy policy.</label></div>
+                            <div class="input-group" style="font-size: 14px;"><input id="terms" type="checkbox" required /><label for="terms" class="terms">I accept the <a href="/terms.html">terms and conditions</a> for signing up to this service, and hereby confirm I have read the privacy policy.</label></div>
                         </div>
                     </div>
                 </div>
@@ -54,8 +58,10 @@
             </form>
         </main>
         <script src="js/jquery-3.6.0.min.js"></script>
+        <script defer src="js/sweetalert2.js"></script>
         <!--<script src="js/jquery-cookie.js"></script>-->
         <script src="js/normal.js"></script>
+        <script src="js/register_validation.js"></script>
         <!--<script defer src="js/swup.min.js"></script>
         <script defer src="js/swup_animation.js"></script>-->
     </body>
