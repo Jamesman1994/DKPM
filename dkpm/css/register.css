@@ -239,13 +239,13 @@ input[type="checkbox"] {
   display: none;
 }
 
-input[type="checkbox"] + label {
+input[type="checkbox"][id="terms"] + label {
   position: relative;
   display: block;
   padding-left: 1.6em;
 }
 
-input[type="checkbox"] + label:before {
+input[type="checkbox"][id="terms"] + label:before {
   position: absolute;
   top: 0.2em;
   left: 0;
@@ -256,17 +256,22 @@ input[type="checkbox"] + label:before {
   content: "";
 }
 
-input[type="checkbox"] + label:after {
+input[type="checkbox"][id="terms"] + label:after {
   position: absolute;
-  top: 0.45em;
+  top: 0.3em;
   left: 0.2em;
-  font-size: 0.8em;
+  font-size: 1em;
   color: #fff;
   opacity: 0;
 }
 
 input:checked + label:after {
   opacity: 1;
+}
+
+input[type="checkbox"][id="terms"]:checked + label:before {
+  content: "✓";
+  transform: scale(1);
 }
 
 .input-group {
@@ -293,6 +298,7 @@ input:checked + label:after {
 }
 
 .input-group-icon .input-icon {
+  color:#973c35;
   position: absolute;
   top: 0;
   left: 0;
@@ -326,7 +332,7 @@ input:checked + label:after {
   transition: all 0.35s ease-in-out;
 }
 
-.container {
+.container-dkpm {
   width: 460px;
   padding: 30px;
   background-color: #fff;
@@ -394,5 +400,14 @@ input:checked + label:after {
   border-radius: 20px;
   border: 6px solid transparent;
   background-clip: content-box;
+}
+
+.image_album {
+  margin: 2px;
+  border: 3px solid #e5e5e5;
+}
+
+.img_border {
+  border: 3px solid #973c35;
 }
 
