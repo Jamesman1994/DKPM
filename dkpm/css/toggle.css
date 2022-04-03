@@ -28,9 +28,9 @@
 .slider:before {
   position: absolute;
   content: "";
-  height: 30px;
-  width: 30px;
-  bottom: -2px;
+  height: 32px;
+  width: 32px;
+  bottom: -4px;
   background-color: rgb(46, 46, 46);
   border-radius: 50%;
 }

@@ -18,7 +18,7 @@ h2, h4, label {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h2, h4, h1 {
+h2, h4, h1, h5 {
   color: #973c35;
 }
 
@@ -272,6 +272,8 @@ input:checked + label:after {
 input[type="checkbox"][id="terms"]:checked + label:before {
   content: "✓";
   transform: scale(1);
+  padding-left: 2px;
+  padding-bottom: 2px;
 }
 
 .input-group {
@@ -411,3 +413,58 @@ input[type="checkbox"][id="terms"]:checked + label:before {
   border: 3px solid #973c35;
 }
 
+.remind {
+  color: #FF0000;
+  font-size: 20px;
+}
+
+.loading-box {
+  display: flex;
+  position: absolute;
+  height: 15px;
+  width: 105px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loading-box .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #973c35;
+  animation: move 500ms linear 0ms infinite;
+  margin-right: 30px;
+}
+.loading-box .circle:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: grow 500ms linear 0ms infinite;
+}
+.loading-box .circle:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 0;
+  animation: grow 500ms linear 0s infinite reverse;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(45px);
+  }
+}
