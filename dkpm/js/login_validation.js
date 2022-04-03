@@ -10,6 +10,8 @@
         e.preventDefault();
         
         if (dkpmForm.checkValidity() && $('#user_email').val().length != 0 && $('#user_password').val().length != 0) {
+            $('#hcaptcha_token').val($('[name=h-captcha-response]').val());
+
             const response = await fetch('http://dkpm.com/api/auth.php', {
                 method: 'POST',
                 body: new FormData(dkpmForm)
@@ -38,12 +40,11 @@
                     }
                 }
             } else {
-                location.href = 'register.html';
+                location.href = 'index.html';
             }
         } else {
             dkpmForm.reportValidity();
         }
-        
     };
 
     // add Class and remove Class
