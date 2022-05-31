@@ -1,0 +1,58 @@
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+#close_bar {
+    color: #973c35;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+#dkpm_bar_container {
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: 55px auto 55px;
+    grid-column-gap: 10px;
+    box-sizing: border-box;
+    min-height: 45px;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+#content, #close {
+    margin-top: 10px;
+}
+
+.buttons {
+    float: right;
+}
+
+#save, #never {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #973c35;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.text {
+    width: fit-content;
+    font-size: 20px;
+    margin-top: 10px;
+}
