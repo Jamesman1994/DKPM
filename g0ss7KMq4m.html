@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DKPM</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="DoorKnock Password Manager" name="description">
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' http://dkpm.com 'unsafe-inline' 'unsafe-eval'" />
+        <link rel="icon" href="dkpm.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/switch.css">
+        <link rel="stylesheet" href="css/normal.css">
+        <link rel="stylesheet" href="css/tabbar.css">
+        <link rel="stylesheet" href="css/setting.css">
+    </head>
+    <body class="mode_background">
+        <main style="margin-left: auto;margin-right: auto;width: 500px;height: 600px;">
+            <div style="padding: 10px;">
+                <div class="container">
+                    <div class="form_mode_background setting_card" title="__MSG_dark_light_mode__">
+                        <div class="mode_text" style="width: 95%;flex: 0 0 auto;">
+                            <div class="fas fa-adjust" style="font-size: 35px;margin-left: 15px;"></div>
+                        </div>
+                        <div style="width: 5%;flex: 0 0 auto;">                    
+                            <label class="switch">
+                                <input type="checkbox" id="dark_light_mode" value="true">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form_mode_background setting_card" title="__MSG_auto_lock_time__">
+                        <div class="mode_text" style="width: 8%;flex: 0 0 auto;">
+                            <div class="fas fa-hourglass-half" style="font-size: 35px;margin-left: 20px;"></div>
+                        </div>
+                        <div class="mode_text" style="text-align: right;margin-top: 5px;width: 92%;flex: 0 0 auto;">
+                            <select id="jMlQZMEB1a" style="font-size: 20px;">
+                                <option selected disabled></option>
+                                <option value="60">__MSG_one_minute__</option>
+                                <option value="300">__MSG_five_minutes__</option>
+                                <option value="900">__MSG_fifteen_minutes__</option>
+                                <option value="1800">__MSG_thirty_minutes__</option>
+                                <option value="3600">__MSG_one_hour__</option>
+                                <option value="7200">__MSG_two_hours__</option>
+                                <option value="18000">__MSG_five_hours__</option>
+                                <option value="86400">__MSG_one_day__</option>
+                                <option value="0">__MSG_never__</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form_mode_background setting_card" title="__MSG_app_language__">
+                        <div class="mode_text" style="width: 8%;flex: 0 0 auto;">
+                            <div class="fas fa-language" style="font-size: 35px;margin-left: 10px;"></div>
+                        </div>
+                        <div class="mode_text" style="text-align: right;margin-top: 5px;width: 92%;flex: 0 0 auto;">
+                            <span id="app_language"></span>
+                        </div>
+                    </div>
+                    <div class="form_mode_background setting_card" title="__MSG_app_version__">
+                        <div style="width: 8%;flex: 0 0 auto;">
+                            <img src="images/doorknock.png" width="38" style="margin-left: 10px;">
+                        </div>
+                        <div class="mode_text" style="text-align: right;margin-top: 5px;width: 92%;flex: 0 0 auto;">
+                            <span id="app_version">__MSG_version__</span>
+                        </div>
+                    </div>
+                    <div class="form_mode_background setting_card" title="__MSG_share__">
+                        <div class="mode_text" style="width: 55%;flex: 0 0 auto;">
+                            <div class="fas fa-share-alt" style="font-size: 35px;margin-left: 10px;"></div>
+                        </div>
+                        <div class="mode_text" style="width: 45%;flex: 0 0 auto;display: flex;">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://dkpm.com" target="_blank" class="share_icon">
+                                <img src="images/facebook.png">
+                            </a>
+                            <a href="https://twitter.com/intent/tweet?url=http://dkpm.com" target="_blank" class="share_icon">
+                                <img src="images/twitter.png">
+                            </a>
+                            <a href="https://www.linkedin.com/sharing/share-offsite/?url=http://dkpm.com" target="_blank" class="share_icon">
+                                <img src="images/linkedin.png">
+                            </a>
+                            <a href="https://www.pinterest.com/pin/create/link/?url=http://dkpm.com" target="_blank" class="share_icon">
+                                <img src="images/pinterest.png">
+                            </a>
+                        </div>
+                    </div>
+                    <!--<div class="row form_mode_background setting_card">
+                        <div class="col-10">
+                            <textarea id="comment" class="input" placeholder="Comment" name="comment"></textarea>
+                        </div>
+                        <div class="col-2">
+                            <button id="send_comment" class="fas fa-paper-plane"></button>
+                        </div>
+
+                    </div>-->
+                    <div class="form_mode_background setting_card">
+                        <div style="width:100%">
+                            <button id="dkpm_logout" class="fas fa-sign-out-alt"><span style="font-family: Arial, Helvetica, sans-serif;"> __MSG_logout__</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center;margin-top: 20px;">
+                <img src="images/doorknock_logo.png" width="200">
+            </div>
+        </main>
+        <div class="container">
+            <nav class="tabbar form_mode_background" id="tabbar-dkpm">
+                <a href="Jxc17uOMaU.html" class="tabbar-item">
+                    <span class="fas fa-lock material-icons"></span>
+                    <span class="tabbar-item-label">__MSG_password_vault__</span>
+                </a>
+                <a href="jFYI4xEeVY.html" class="tabbar-item">
+                    <span class="fas fa-key material-icons"></span>
+                    <span class="tabbar-item-label">__MSG_password_generator__</span>
+                </a>
+                <a class="tabbar-item">
+                    <span class="fas fa-ellipsis-h material-icons tabbar-active"></span>
+                    <span class="tabbar-item-label tabbar-active">__MSG_settings__</span>
+                </a>
+            </nav>
+        </div>
+        <div id="gate">
+            <div id="left_gate_close" class="gate"><img src="images/doorknock.png" class="gate_doorknock"></div>
+            <div id="right_gate_close" class="gate"><img src="images/doorknock.png" class="gate_doorknock"></div>
+        </div>
+
+        <script src="js/QBpd8ZpUw4.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script defer src="js/sweetalert2.js"></script>
+        <script src="js/iZF1sPipIp.js"></script>
+        <script src="js/ETLFz7k8iZ.js"></script>
+    </body>
+</html>

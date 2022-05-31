@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DKPM</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="DoorKnock Password Manager" name="description">
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' http://dkpm.com 'unsafe-inline' 'unsafe-eval'" />
+        <link rel="icon" href="dkpm.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/vault.css">
+        <link rel="stylesheet" href="css/switch.css">
+        <link rel="stylesheet" href="css/normal.css">
+        <link rel="stylesheet" href="css/input_3.css">
+        <link rel="stylesheet" href="css/tabbar.css">
+        <link rel="stylesheet" href="css/generator.css">
+    </head>
+    <body class="mode_background">
+        <main style="margin-left: auto;margin-right: auto;width: 500px;">
+            <div class="form-header">
+                <a class="fas fa-search open_search"></a>
+                <input type="text" id="search_bar" />
+                <img src="images/doorknock_logo.png" width="150" class="logo">
+                <a class="fas fa-plus" id="go_to_add"></a>
+            </div>
+            <div id="item_list"></div>
+            <div id="add_page" class="toggle mode_background">
+                <div class="page_header" id="add_page_header">
+                    <div id="cancel_add_page" class="fas fa-arrow-left" style="font-size: 25px;"></div>
+                    <button id="confirm_to_add" class="fas fa-clipboard-check" style="font-size: 25px;" type="submit"></button>
+                    <div class="page_title">__MSG_add_item__</div>
+                </div>
+                <div class="page_body" id="add_page_body">
+                    <div class="container-dkpm form_mode_background" style="margin-top: 10px;">
+                        <h2>__MSG_item_information__</h2>
+                        <div class="input-container">
+                            <input id="item_name" class="input" type="text" placeholder=" " name="item_name" />
+                            <div class="cut form_mode_background"></div>
+                            <label for="item_name" class="placeholder">__MSG_item_name__</label>
+                        </div>
+                        <div class="input-container">
+                            <input id="item_icon" class="input" type="text" placeholder=" " name="item_icon" style="width: 85%"/>
+                            <div class="cut form_mode_background"></div>
+                            <label for="item_icon" class="placeholder">__MSG_item_icon__</label>
+                            <img id="favIcon">
+                        </div>
+                        <div class="input-container">
+                            <input id="user_name" class="input" type="text" placeholder=" " name="user_name" />
+                            <div class="cut form_mode_background"></div>
+                            <label for="user_name" class="placeholder">__MSG_user_name__</label>
+                        </div>
+                        <div class="input-container" style="position:relative">
+                            <input id="user_password" class="input" type="password" placeholder=" " name="user_password" style="width: 75%" minlength="6" />
+                            <div class="cut form_mode_background"></div>
+                            <label for="user_password" class="placeholder">__MSG_user_password__</label>
+                            <div class="fas fa-database mode_text" id="add_check_password"></div>
+                            <div class="fas fa-eye mode_text" id="add_read_password"></div>
+                            <div class="fas fa-key mode_text" id="add_go_to_generator"></div>
+                        </div>
+                    </div>
+                    <div class="container-dkpm form_mode_background" style="margin-top: 10px;">
+                        <h2>__MSG_item_domain__</h2>
+                        <div class="input-container">
+                            <input id="domain" class="input" type="text" placeholder=" " name="domain" />
+                            <div class="cut form_mode_background"></div>
+                            <label for="domain" class="placeholder">__MSG_domain__</label>
+                        </div>
+                        <div class="input-container">
+                            <input id="url" class="input" type="text" placeholder=" " name="url" />
+                            <div class="cut form_mode_background"></div>
+                            <label for="url" class="placeholder">__MSG_url__</label>
+                        </div>
+                    </div>
+                    <div class="container-dkpm form_mode_background" style="margin-top: 10px;height: 150px;margin-bottom: 10px;">
+                        <h2>__MSG_remarks__</h2>
+                        <div class="input-container">
+                            <textarea id="remarks" class="input" placeholder=" " name="remarks"></textarea>
+                            <label for="remarks" class="placeholder"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="edit_page" class="toggle mode_background">
+                <div class="page_header" id="edit_page_header">
+                    <div id="cancel_edit_page" class="fas fa-arrow-left" style="font-size: 25px;"></div>
+                    <div id="confirm_to_edit" class="fas fa-clipboard-check" style="font-size: 25px;"></div>
+                    <div class="page_title">__MSG_edit_item__</div>
+                </div>
+                <div class="page_body" id="edit_page_body">
+                    <div class="container-dkpm form_mode_background" style="margin-top: 10px;">
+                        <h2>__MSG_item_information__</h2>
+                        <div class="input-container">
+                            <input id="edit_item_name" class="input" type="text" placeholder=" " name="item_name" />
+                            <div class="cut form_mode_background"></div>
+                            <label for="edit_item_name" class="placeholder">__MSG_item_name__</label>
+                        </div>
+                        <div class="input-container">
+                            <input id="edit_item_icon" class="input" type="text" placeholder=" " name="item_icon" style="width: 85%" readonly/>
+                            <div class="cut form_mode_background"></div>
+                            <label for="edit_item_icon" class="placeholder">__MSG_item_icon__</label>
+                            <img id="edit_favIcon">
+                        </div>
+                        <div class="input-container">
+                            <input id="edit_user_name" class="input" type="text" placeholder=" " name="user_name" />
+                            <div class="cut form_mode_background"></div>
+                            <label for="edit_user_name" class="placeholder">__MSG_user_name__</label>
+                        </div>
+                        <div class="input-container">
+                            <input id="edit_user_password" class="input" type="password" placeholder=" " name="user_password" style="width: 75%" minlength="6"/>
+                            <div class="cut form_mode_background"></div>
+                            <label for="edit_user_password" class="placeholder">__MSG_user_password__</label>
+                            <div class="fas fa-database mode_text" id="edit_check_password"></div>
+                            <div class="fas fa-eye mode_text" id="edit_read_password"></div>
+                            <div class="fas fa-key mode_text" id="edit_go_to_generator"></div>
+                        </div>
+                    </div>
+                    <div class="container-dkpm form_mode_background" style="margin-top: 10px;">
+                        <h2>__MSG_item_domain__</h2>
+                        <div class="input-container">
+                            <input id="edit_domain" class="input" type="text" placeholder=" " name="domain" readonly />
+                            <div class="cut form_mode_background"></div>
+                            <label for="edit_domain" class="placeholder">__MSG_domain__</label>
+                        </div>
+                        <div class="input-container">
+                            <input id="edit_url" class="input" type="text" placeholder=" " name="url" readonly />
+                            <div class="cut form_mode_background"></div>
+                            <label for="edit_url" class="placeholder">__MSG_url__</label>
+                        </div>
+                    </div>
+                    <div class="container-dkpm form_mode_background" style="margin-top: 10px;height: 150px;margin-bottom: 10px;">
+                        <h2>__MSG_remarks__</h2>
+                        <div class="input-container">
+                            <textarea id="edit_remarks" class="input" placeholder=" " name="remarks"></textarea>
+                            <label for="edit_remarks" class="placeholder"></label>
+                        </div>
+                    </div>
+                    <div class="container-dkpm form_mode_background" style="margin-top: 10px;margin-bottom: 10px;">
+                        <input type="hidden" id="Lu1rwL65WU">
+                        <div class="fas fa-trash" id="delete_item"><span style="font-family: Arial, Helvetica, sans-serif;"> __MSG_delete_item__</span></div>
+                    </div>
+                </div>
+            </div>
+            <div id="generator_page" class="toggle mode_background">
+                <div class="page_header">
+                    <div id="back_to_item" class="fas fa-arrow-left" style="font-size: 25px;"></div>
+                    <div id="click_to_choose" class="fas fa-check-circle" style="font-size: 25px;"></div>
+                    <div class="page_title">__MSG_password_generator__</div>
+                </div>
+                <div class="page_body">
+                    <div class="container-dkpm form_mode_background" style="width: 90%;text-align: center;margin-top: 20px;">
+                        <div id="random_password" data-copy="" class="copy mode_text" title="__MSG_copy__"></div>
+                        <div class="fas fa-sync-alt mode_text" id="refresh_password"> <span id="refresh_text" style="font-family: Arial, Helvetica, sans-serif;">__MSG_refresh_password__</span></div>
+                    </div>
+                    <div class="container-dkpm form_mode_background" style="width: 90%;margin-top: 5px;">
+                        <h3 class="mode_text">__MSG_password_type__</h3>
+                        <div style="display: flex;flex-wrap: wrap;">
+                            <label class="format_container mode_text">
+                                <input type="radio" class="format_checkbox" name="type" value="password" checked>
+                                <span class="checkbox"></span>
+                                <span class="checkbox_text" style="font-size: 18px;">__MSG_password__</span>
+                            </label>
+                            <label class="format_container mode_text">
+                                <input type="radio" class="format_checkbox" name="type" value="passphrase">
+                                <span class="checkbox"></span>
+                                <span class="checkbox_text" style="font-size: 18px;">__MSG_passphrase__</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div id="passphrase" style="display: none;">
+                        <div class="container-dkpm form_mode_background" style="width: 90%;margin-top: 5px;">
+                            <div style="display: flex;flex-wrap: wrap;">
+                                <div style="width: 80%;">
+                                    <label for="word_count" class="mode_text">__MSG_word_count__</label>
+                                </div>
+                                <div style="width: 20%;">
+                                    <input type="number" id="word_count" min="3" max="20" value="3" />
+                                </div>
+                            </div>
+                            <div style="display: flex;flex-wrap: wrap;margin-top: 10px;">
+                                <div style="width: 80%;">
+                                    <label for="min_number" class="mode_text">__MSG_separator_character__</label>
+                                </div>
+                                <div style="width: 20%;">
+                                    <input type="text" id="seperator" maxlength="1" style="width: 58px" value="-" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="password">
+                        <div class="container-dkpm form_mode_background" style="width: 90%;margin-top: 5px;">
+                            <h3 class="mode_text">__MSG_password_length__</h3>
+                            <div style="display: flex;flex-wrap: wrap;">
+                                <div class="range_container">
+                                    <input id="rs-length" class="rs-range form_mode_background" type="range" value="6" min="6" max="90">
+                                </div>
+                                <div class="range_text">
+                                    <span id="rs-number" class="rs-label mode_text">6</span>
+                                </div>
+                            </div>
+                            <h3 class="mode_text">__MSG_password_format__</h3>
+                            <div style="display: flex;flex-wrap: wrap;">
+                                <label class="format_container mode_text">
+                                    <input id="format_lower" type="checkbox" class="format_checkbox" name="format" value="lower" checked>
+                                    <span class="checkbox"></span>
+                                    <span class="checkbox_text">a-z</span>
+                                </label>
+                                <label class="format_container mode_text">
+                                    <input id="format_upper" type="checkbox" class="format_checkbox" name="format" value="upper">
+                                    <span class="checkbox"></span>
+                                    <span class="checkbox_text">A-Z</span>
+                                </label>
+                                <label class="format_container mode_text">
+                                    <input id="format_number" type="checkbox" class="format_checkbox" name="format" value="number">
+                                    <span class="checkbox"></span>
+                                    <span class="checkbox_text">0-9</span>
+                                </label>
+                                <label class="format_container mode_text">
+                                    <input id="format_symbol" type="checkbox" class="format_checkbox" name="format" value="symbol">
+                                    <span class="checkbox"></span>
+                                    <span class="checkbox_text">!@#$%^&*</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="container-dkpm form_mode_background" style="width: 90%;margin-top: 5px;">
+                            <h3 class="mode_text">__MSG_minimum_digits__</h3>
+                            <div style="display: flex;flex-wrap: wrap;">
+                                <div style="width: 80%;">
+                                    <label for="min_letter" class="mode_text">__MSG_min_letter__</label>
+                                </div>
+                                <div style="width: 20%;">
+                                    <input type="number" id="min_letter" min="0" max="5" value="0" />
+                                </div>
+                            </div>
+                            <div style="display: flex;flex-wrap: wrap;margin-top: 10px;">
+                                <div style="width: 80%;">
+                                    <label for="min_number" class="mode_text">__MSG_min_number__</label>
+                                </div>
+                                <div style="width: 20%;">
+                                    <input type="number" id="min_number" min="0" max="5" value="0" />
+                                </div>
+                            </div>
+                            <div style="display: flex;flex-wrap: wrap;margin-top: 10px;">
+                                <div style="width: 80%;">
+                                    <label for="min_symbol" class="mode_text">__MSG_min_symbol__</label>
+                                </div>
+                                <div style="width: 20%;">
+                                    <input type="number" id="min_symbol" min="0" max="5" value="0" />
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container-dkpm form_mode_background" style="width: 90%;margin-top: 5px;">
+                        <div id="redirect_to_history" class="fas fa-history mode_text">__MSG_history_record__</div>
+                    </div>
+                </div>
+            </div>
+            <div id="history_page" class="toggle mode_background">
+                <div class="page_header" id="history_page_header">
+                    <div id="back_to_generator" class="fas fa-arrow-left" style="font-size: 25px;"></div>
+                    <div id="clear_page" class="fas fa-trash" style="font-size: 25px;"></div>
+                    <div class="page_title">__MSG_history_record__</div>
+                </div>
+                <h2 style="text-align: center;" id="history_message">__MSG_copy__</h2>
+                <div class="page_body" id="history_list"></div>
+            </div>
+        </main>
+        <div class="container">
+            <nav class="tabbar form_mode_background" id="tabbar-dkpm">
+                <a class="tabbar-item">
+                    <span class="fas fa-lock material-icons tabbar-active"></span>
+                    <span class="tabbar-item-label tabbar-active">__MSG_password_vault__</span>
+                </a>
+                <a href="jFYI4xEeVY.html" class="tabbar-item">
+                    <span class="fas fa-key material-icons"></span>
+                    <span class="tabbar-item-label">__MSG_password_generator__</span>
+                </a>
+                <a href="g0ss7KMq4m.html" class="tabbar-item">
+                    <span class="fas fa-ellipsis-h material-icons"></span>
+                    <span class="tabbar-item-label">__MSG_settings__</span>
+                </a>
+            </nav>
+        </div>
+        <div id="gate">
+            <div id="left_gate" class="gate"><img src="images/doorknock.png" class="gate_doorknock"></div>
+            <div id="right_gate" class="gate"><img src="images/doorknock.png" class="gate_doorknock"></div>
+        </div>
+
+        <script src="js/QBpd8ZpUw4.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script defer src="js/sweetalert2.js"></script>
+        <script src="js/ETLFz7k8iZ.js"></script>
+        <script src="js/RbPSyB3Vyj.js"></script>
+        <script src="js/sNkCN3guoT.js"></script>
+        <!--<script defer src="js/swup.min.js"></script>
+        <script defer src="js/swup_animation.js"></script>-->
+    </body>
+</html>

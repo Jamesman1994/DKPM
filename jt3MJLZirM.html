@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DKPM</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta http-equiv="cache-control" content="max-age=86400, public" />
+        <meta content="" name="keywords">
+        <meta content="DoorKnock Password Manager" name="description">
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' http://dkpm.com 'unsafe-inline' 'unsafe-eval'" />
+        <link rel="icon" href="dkpm.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    </head>
+    <body style="background-color: black;font-family: Arial, Helvetica, sans-serif;">
+        <main style="margin-left: auto;margin-right: auto;width: 500px;height: 600px;">
+            <div style="text-align: center;margin-top: 20px;">
+                <img src="images/doorknock.png" width="150" />
+            </div>
+            <div style="margin-left: auto;margin-right: auto;text-align: center;margin-top: 50px">
+                <div class="background-color: #fff;width:50%;height:auto;border-radius:7px">
+                <div style="color: #fff;font-size: 100px">404</div>
+                </div>
+                <div style="margin-top: 30px;">
+                    <div style="font-size: 20px;color:#fff;font-weight: bold;text-align: justify;text-align: center;" id="error_message"></div>
+                </div>
+                <!--<div onclick="close_window()" style="color:#fff;cursor: pointer;margin-top: 50px;font-size: 23px;background-color: #973c35;width: fit-content;padding: 10px;border-radius: 5px;margin-left: auto;margin-right: auto;" id="close_page"></div>-->
+            </div>
+        </main>
+        <footer>
+            <div style="color: #fff;text-align: center;font-size: 20px;" id="slogan">- DO A <img src="images/doorknock_text.png" width="150" style="vertical-align: top;" /> BEFORE ENTERING -</div>
+            <div style="color: #fff;text-align: center;margin-top: 20px;">
+                <img src="images/doorknock_logo.png" width="200"/> 
+                <div style="margin:16px">dkpm.com © 2022</div>
+            </div>
+        </footer>
+    </body>
+    <script text="javascript">
+
+        if (navigator.language || navigator.userLanguage == "zh-TW") {
+            document.getElementById("error_message").innerText = "相關頁面可能已過期或連結錯誤,請留意!"
+            document.getElementById("close_page").innerText = "關閉此頁面";
+        } else if (navigator.language || navigator.userLanguage == "en") {
+            document.getElementById("error_message").innerText = "The relevant page may be out of date or the link is wrong, please pay attention."
+            document.getElementById("close_page").innerText = "Close the page";
+        } else if (navigator.language || navigator.userLanguage == "zh-CN") {
+            document.getElementById("error_message").innerText = "相关页面可能已过期或连结错误,请留意!";
+            document.getElementById("close_page").innerText = "关闭此页面";
+        } else if (navigator.language || navigator.userLanguage == "ko") {
+            document.getElementById("error_message").innerText = "해당 페이지가 오래되었거나 링크가 잘못되었을 수 있으니 주의해주세요";
+            document.getElementById("close_page").innerText = "이 페이지 닫기";
+        } else if (navigator.language || navigator.userLanguage == "th") {
+            document.getElementById("error_message").innerText = "หน้าที่เกี่ยวข้องอาจล้าสมัยหรือลิงค์ไม่ถูกต้องโปรดใส่ใจ";
+            document.getElementById("close_page").innerText = "ปิดหน้านี้";
+        } else if (navigator.language || navigator.userLanguage == "ja") {
+            document.getElementById("error_message").innerText = "関連するページが古くなっているか、リンクが間違っている可能性があります。注意してください。";
+            document.getElementById("close_page").innerText = "このページを閉じる";
+        } else if (navigator.language || navigator.userLanguage == "es") {
+            document.getElementById("error_message").innerText = "La página relevante puede estar desactualizada o el enlace es incorrecto, preste atención.";
+            document.getElementById("close_page").innerText = "Cierra la página";
+        } else if (navigator.language || navigator.userLanguage == "fr") {
+            document.getElementById("error_message").innerText = "La page concernée peut être obsolète ou le lien est erroné, veuillez faire attention.";
+            document.getElementById("close_page").innerText = "Fermer la page";
+        } else if (navigator.language || navigator.userLanguage == "de") {
+            document.getElementById("error_message").innerText = "Die betreffende Seite ist möglicherweise veraltet oder der Link ist falsch, bitte achten Sie darauf.";
+            document.getElementById("close_page").innerText = "Schließen Sie die Seite";
+        } else if (navigator.language || navigator.userLanguage == "ru") {
+            document.getElementById("error_message").innerText = "Соответствующая страница может быть устаревшей или ссылка неверна, обратите внимание.";
+            document.getElementById("close_page").innerText = "Закрыть страницу";
+        }
+    </script>
+</html>

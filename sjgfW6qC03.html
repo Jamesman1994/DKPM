@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DKPM</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta http-equiv="cache-control" content="max-age=86400, public" />
+        <meta content="" name="keywords">
+        <meta content="DoorKnock Password Manager" name="description">
+        <link rel="icon" href="dkpm.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="js/kqjMB9pOrU.js" text="javascript"></script>
+    </head>
+    <body style="background-color: black;font-family: Arial, Helvetica, sans-serif;">
+        <main style="margin-left: auto;margin-right: auto;width: 500px;height: 600px;">
+            <div style="text-align: center;margin-top: 20px;">
+                <img src="images/doorknock.png" width="150" />
+            </div>
+            <div style="margin-left: auto;margin-right: auto;text-align: center;margin-top: 50px">
+                <div class="background-color: #fff;width:50%;height:auto;border-radius:7px">
+                <div style="color: #fff;font-size: 35px" id="safety_reminder"></div>
+                <div style="color: #fff">
+                    <div><span id="reminder1"> </span><span style="color:red">*</span></div>
+                    <div><span id="reminder2"> </span><span style="color:red">*</span></div>
+                </div>
+                <div style="margin-top: 30px;">
+                    <label for="Z3P7XEHmKl" style="color:#fff" id="new_password_text"></label>
+                    <input type="password" id="Z3P7XEHmKl" required style="border: 0;border-radius: 7px;font-size: 30px;padding: 5px;display: block;margin-left: auto;margin-right: auto;margin-top: 10px;" />
+                </div>
+                <div style="margin-top: 30px;">
+                    <label for="wAJgn86T6E" style="color:#fff" id="new_retype_password_text"></label>
+                    <input type="password" id="wAJgn86T6E" required style="border: 0;border-radius: 7px;font-size: 30px;padding: 5px;display: block;margin-left: auto;margin-right: auto;margin-top: 10px;" />
+                </div>
+                <div onclick="TD9lVl4r0T()" style="color:#fff;cursor: pointer;margin-top: 20px;font-size: 23px;background-color: #973c35;width: fit-content;padding: 10px;border-radius: 5px;margin-left: auto;margin-right: auto;" id="change_password"></div>
+            </div>
+        </main>
+        <footer>
+            <div style="color: #fff;text-align: center;font-size: 20px;margin-top: 20px;" id="slogan">- DO A <img src="images/doorknock_text.png" width="150" style="vertical-align: top;" /> BEFORE ENTERING -</div>
+            <div style="color: #fff;text-align: center;margin-top: 20px;">
+                <img src="images/doorknock_logo.png" width="200"/> 
+                <div style="margin:16px">dkpm.com © 2022</div>
+            </div>
+        </footer>
+    </body>
+    <script>
+        if (navigator.language || navigator.userLanguage == "zh-TW") {
+            document.getElementById("safety_reminder").innerText = "因安全問題,請立即更改密碼!";
+            document.getElementById("change_password").innerText = "更改密碼";
+            document.getElementById("new_password_text").innerText = "新密碼";
+            document.getElementById("new_retype_password_text").innerText = "重新輸入新密碼";
+            document.getElementById("reminder1").innerText = "(最少 8 個字符，最多 16 個字符)";
+            document.getElementById("reminder2").innerText = "(至少一個大寫字母、小寫字母和數字)";
+        } else if (navigator.language || navigator.userLanguage == "en") {
+            document.getElementById("safety_reminder").innerText = "For security reasons, please change your password immediately!";
+            document.getElementById("change_password").innerText = "Change the password";
+            document.getElementById("new_password_text").innerText = "New password";
+            document.getElementById("new_retype_password_text").innerText = "Re-enter new password";
+            document.getElementById("reminder1").innerText = "(8 characters minimum, 16 characters maximum)";
+            document.getElementById("reminder2").innerText = "(At least one uppercase letter, lowercase letter and number)";
+        } else if (navigator.language || navigator.userLanguage == "zh-CN") {
+            document.getElementById("safety_reminder").innerText = "因安全问题,请立即更改密码!";
+            document.getElementById("change_password").innerText = "更改密码";
+            document.getElementById("new_password_text").innerText = "新密码";
+            document.getElementById("new_retype_password_text").innerText = "重新输入新密码";
+            document.getElementById("reminder1").innerText = "(最少 8 个字符，最多 16 个字符)";
+            document.getElementById("reminder2").innerText = "(至少一个大写字母、小写字母和数字)";
+        } else if (navigator.language || navigator.userLanguage == "ko") {
+            document.getElementById("safety_reminder").innerText = "보안 문제로 인해 즉시 비밀번호를 변경하십시오.!";
+            document.getElementById("change_password").innerText = "비밀번호 변경";
+            document.getElementById("new_password_text").innerText = "새 비밀번호";
+            document.getElementById("new_retype_password_text").innerText = "새 비밀번호 재입력";
+            document.getElementById("reminder1").innerText = "(최소 8자, 최대 16자)";
+            document.getElementById("reminder2").innerText = "(하나 이상의 대문자, 소문자 및 숫자)";
+        } else if (navigator.language || navigator.userLanguage == "th") {
+            document.getElementById("safety_reminder").innerText = "เนื่องจากข้อกังวลด้านความปลอดภัย โปรดเปลี่ยนรหัสผ่านของคุณทันที!";
+            document.getElementById("change_password").innerText = "เปลี่ยนรหัสผ่าน";
+            document.getElementById("new_password_text").innerText = "รหัสผ่านใหม่";
+            document.getElementById("new_retype_password_text").innerText = "ป้อนรหัสผ่านใหม่";
+            document.getElementById("reminder1").innerText = "(ขั้นต่ำ 8 ตัวอักษร สูงสุด 16 ตัวอักษร)";
+            document.getElementById("reminder2").innerText = "(อย่างน้อย 1 ตัวพิมพ์ใหญ่ ตัวพิมพ์เล็ก และตัวเลข)";
+        } else if (navigator.language || navigator.userLanguage == "ja") {
+            document.getElementById("safety_reminder").innerText = "セキュリティ上の理由から、すぐにパスワードを変更してください!";
+            document.getElementById("change_password").innerText = "パスワードを変更する";
+            document.getElementById("new_password_text").innerText = "新しいパスワード";
+            document.getElementById("new_retype_password_text").innerText = "新しいパスワードを再入力してください";
+            document.getElementById("reminder1").innerText = "(最小8文字、最大16文字)";
+            document.getElementById("reminder2").innerText = "(少なくとも1つの大文字、小文字、および数字)";
+        } else if (navigator.language || navigator.userLanguage == "es") {
+            document.getElementById("safety_reminder").innerText = "Debido a problemas de seguridad, cambie su contraseña de inmediato!";
+            document.getElementById("change_password").innerText = "cambiar la contraseña";
+            document.getElementById("new_password_text").innerText = "nueva contraseña";
+            document.getElementById("new_retype_password_text").innerText = "re-ingrese nueva contraseña";
+            document.getElementById("reminder1").innerText = "(8 caracteres mínimo, 16 caracteres máximo)";
+            document.getElementById("reminder2").innerText = "(Al menos una letra mayúscula, una letra minúscula y un número)";
+        } else if (navigator.language || navigator.userLanguage == "fr") {
+            document.getElementById("safety_reminder").innerText = "Pour des raisons de sécurité, veuillez changer votre mot de passe immédiatement!";
+            document.getElementById("change_password").innerText = "changer le mot de passe";
+            document.getElementById("new_password_text").innerText = "nouveau mot de passe";
+            document.getElementById("new_retype_password_text").innerText = "ré-entrez le nouveau mot de passe";
+            document.getElementById("reminder1").innerText = "(8 caractères minimum, 16 caractères maximum)";
+            document.getElementById("reminder2").innerText = "(Au moins une lettre majuscule, une lettre minuscule et un chiffre)";
+        } else if (navigator.language || navigator.userLanguage == "de") {
+            document.getElementById("safety_reminder").innerText = "Bitte ändern Sie aus Sicherheitsgründen umgehend Ihr Passwort!";
+            document.getElementById("change_password").innerText = "Änder das Passwort";
+            document.getElementById("new_password_text").innerText = "Neues Kennwort";
+            document.getElementById("new_retype_password_text").innerText = "neues Passwort erneut eingeben";
+            document.getElementById("reminder1").innerText = "(Mindestens 8 Zeichen, maximal 16 Zeichen)";
+            document.getElementById("reminder2").innerText = "(Mindestens ein Großbuchstabe, ein Kleinbuchstabe und eine Zahl)";
+        } else if (navigator.language || navigator.userLanguage == "ru") {
+            document.getElementById("safety_reminder").innerText = "Из соображений безопасности немедленно измените свой пароль!";
+            document.getElementById("change_password").innerText = "изменить пароль";
+            document.getElementById("new_password_text").innerText = "Новый пароль";
+            document.getElementById("new_retype_password_text").innerText = "Повторно введите новый пароль";
+            document.getElementById("reminder1").innerText = "(Минимум 8 символов, максимум 16 символов)";
+            document.getElementById("reminder2").innerText = "(Минимум одна заглавная буква, строчная буква и цифра)";
+        }
+    </script>
+</html>

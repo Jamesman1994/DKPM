@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DKPM</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta http-equiv="cache-control" content="max-age=86400, public" />
+        <meta content="" name="keywords">
+        <meta content="DoorKnock Password Manager" name="description">
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' http://dkpm.com 'unsafe-inline' 'unsafe-eval'" />
+        <link rel="icon" href="dkpm.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <script text="javascript" src="js/Y85tZPE3y7.js"></script>
+    </head>
+    <body style="background-color: black;font-family: Arial, Helvetica, sans-serif;">
+        <main style="margin-left: auto;margin-right: auto;width: 500px;height: 600px;">
+            <div style="text-align: center;margin-top: 20px;">
+                <img src="images/doorknock.png" width="150" />
+            </div>
+            <div style="margin-left: auto;margin-right: auto;text-align: center;margin-top: 50px">
+                <div class="background-color: #fff;width:50%;height:auto;border-radius:7px">
+                    <img src="images/activation_success.png" />
+                </div>
+                <div style="margin-top: 30px;">
+                    <div style="font-size: 20px;color:#fff;font-weight: bold;text-align: justify;" id="success_message">
+                        
+                    </div>
+                </div>
+                <div onclick="javascript:window.close('','_parent','');" style="color:#fff;cursor: pointer;margin-top: 50px;font-size: 23px;background-color: #973c35;width: fit-content;padding: 10px;border-radius: 5px;margin-left: auto;margin-right: auto;" id="close_page"></div>
+            </div>
+        </main>
+        <footer>
+            <div style="color: #fff;text-align: center;font-size: 20px;" id="slogan">- DO A <img src="images/doorknock_text.png" width="150" style="vertical-align: top;" /> BEFORE ENTERING -</div>
+            <div style="color: #fff;text-align: center;margin-top: 20px;">
+                <img src="images/doorknock_logo.png" width="200"/> 
+                <div style="margin:16px">dkpm.com © 2022</div>
+            </div>
+        </footer>
+    </body>
+    <script text="javascript">
+        if (navigator.language || navigator.userLanguage == "zh-TW") {
+            document.getElementById("success_message").innerText = "您好！您之前在瀏覽器上安裝了 DoorKnock，並且您已成功激活您的帳戶。您現在可以使用 DoorKnock 密碼管理器。保護您的帳戶是我們最大的目的。"
+            document.getElementById("close_page").innerText = "關閉此頁面";
+        } else if (navigator.language || navigator.userLanguage == "en") {
+            document.getElementById("success_message").innerText = "Hey there! You previously installed DoorKnock on your browser and you have successfully activated your account. You can use DoorKnock Password Manager Now. Protecting your account is our biggest purpose."
+            document.getElementById("close_page").innerText = "Close the page";
+        } else if (navigator.language || navigator.userLanguage == "zh-CN") {
+            document.getElementById("success_message").innerText = "您好! 您之前在浏览器上安装了 DoorKnock，并且您已成功激活您的帐户。您现在可以使用 DoorKnock 密码管理器。保护您的帐户是我们最大的目的。";
+            document.getElementById("close_page").innerText = "关闭此页面";
+        } else if (navigator.language || navigator.userLanguage == "ko") {
+            document.getElementById("success_message").innerText = "이봐! 이전에 브라우저에 DoorKnock을 설치했고 성공적으로 계정을 활성화했습니다. 이제 DoorKnock 비밀번호 관리자를 사용할 수 있습니다. 귀하의 계정을 보호하는 것이 우리의 가장 큰 목적입니다.";
+            document.getElementById("close_page").innerText = "이 페이지 닫기";
+        } else if (navigator.language || navigator.userLanguage == "th") {
+            document.getElementById("success_message").innerText = "สวัสดี! คุณได้ติดตั้ง DoorKnock บนเบราว์เซอร์ของคุณก่อนหน้านี้ และคุณได้เปิดใช้งานบัญชีของคุณสำเร็จแล้ว คุณสามารถใช้ตัวจัดการรหัสผ่าน DoorKnock ได้เลย การปกป้องบัญชีของคุณคือจุดประสงค์สูงสุดของเรา";
+            document.getElementById("close_page").innerText = "ปิดหน้านี้";
+        } else if (navigator.language || navigator.userLanguage == "ja") {
+            document.getElementById("success_message").innerText = "こんにちは！ 以前にブラウザにDoorKnockをインストールし、アカウントを正常にアクティブ化しました。 これで、DoorKnockパスワードマネージャーを使用できます。 アカウントを保護することが私たちの最大の目的です。";
+            document.getElementById("close_page").innerText = "このページを閉じる";
+        } else if (navigator.language || navigator.userLanguage == "es") {
+            document.getElementById("success_message").innerText = "¡Hola! Previamente instaló DoorKnock en su navegador y ha activado exitosamente su cuenta. Puede usar DoorKnock Password Manager ahora. Proteger su cuenta es nuestro mayor propósito.";
+            document.getElementById("close_page").innerText = "Cierra la página";
+        } else if (navigator.language || navigator.userLanguage == "fr") {
+            document.getElementById("success_message").innerText = "Salut! Vous avez précédemment installé DoorKnock sur votre navigateur et vous avez activé votre compte avec succès. Vous pouvez utiliser DoorKnock Password Manager maintenant. La protection de votre compte est notre principal objectif.";
+            document.getElementById("close_page").innerText = "Fermer la page";
+        } else if (navigator.language || navigator.userLanguage == "de") {
+            document.getElementById("success_message").innerText = "Sie da! Sie haben DoorKnock zuvor in Ihrem Browser installiert und Ihr Konto erfolgreich aktiviert. Sie können den DoorKnock Password Manager jetzt verwenden. Der Schutz Ihres Kontos ist unser wichtigstes Ziel.";
+            document.getElementById("close_page").innerText = "Schließen Sie die Seite";
+        } else if (navigator.language || navigator.userLanguage == "ru") {
+            document.getElementById("success_message").innerText = "Привет! Ранее вы установили DoorKnock в свой браузер и успешно активировали свою учетную запись. Теперь вы можете использовать диспетчер паролей DoorKnock. Защита вашей учетной записи — наша главная цель.";
+            document.getElementById("close_page").innerText = "Закрыть страницу";
+        }
+    </script>
+</html>

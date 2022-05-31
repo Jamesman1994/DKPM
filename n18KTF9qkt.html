@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>DKPM</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="DoorKnock Password Manager" name="description">
+        <!--<meta http-equiv="Content-Security-Policy" content="script-src 'self' https://js.hcaptcha.com/1/api.js 'unsafe-inline' 'unsafe-eval';">-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link ref="stylesheet" href="css/loading.css">
+        <link rel="stylesheet" href="css/register.css">
+        <link rel="stylesheet" href="css/input_1.css">
+        <link rel="stylesheet" href="css/switch.css">
+        <link rel="icon" href="dkpm.ico">
+    </head>
+    <body class="mode_background">
+        <main style="margin-left: auto;margin-right: auto;width: 500px;">
+            <div style="position: fixed;top:0;left:0;width: 100%;height:100%;background-color: rgba(0,0,0,0.5);z-index: 100;visibility:hidden" id="loading_container">
+                <div class="loading-box">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
+                <div class="loading-box-text">__MSG_not_close__</div>
+            </div>
+            <form class="validate-form" method="POST" autocomplete="off" id="dkpmRegisterForm">
+                <div class="form-header">
+                    <a class="fas fa-arrow-left back-to-last" href="d4jWlq8QrI.html"></a>
+                    <img src="images/doorknock_logo.png" width="250" style="position:absolute;left:50%;transform: translate(-50%, 0);">
+                    <label class="switch">
+                        <input type="checkbox" id="dark_light_mode" value="true">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div>
+                    <div class="container-dkpm form_mode_background">
+                        <h2>__MSG_register_title__</h2>
+                        <div class="row">
+                            <h4>__MSG_email__</h4>
+                            <div class="input-group input-group-icon">
+                                <input type="email" placeholder="__MSG_email_address__" style="width: -webkit-fill-available;" name="user_email" id="user_email" required />
+                                <div class="input-icon fas fa-envelope"></div>
+                            </div>
+                            <h4>__MSG_password__</h4>
+                            <h4>(__MSG_password_reminder_1__)<span class="remind"> *</span></h4>
+                            <h4>(__MSG_password_reminder_2__)<span class="remind"> *</span></h4>
+                            <div class="input-group input-group-icon" style="margin-bottom: 0px">
+                                <input type="password" placeholder="__MSG_user_password__" style="width: -webkit-fill-available;" name="user_password" id="user_password" minlength="8" maxlength="16" required />
+                                <div class="input-icon fas fa-key"></div>
+                            </div>
+                            <div style="position:relative;">
+                                <button type="button" class="fas fa-eye read-password-btn" id="read-password-btn-1"></button>
+                            </div>
+                            <div class="input-group input-group-icon">
+                                <input type="password" placeholder="__MSG_retype_password__" style="width: -webkit-fill-available;" name="retype_password" id="retype_password" minlength="8" maxlength="16" required />
+                                <div class="input-icon fas fa-key"></div>
+                            </div>
+                            <div style="position:relative;">
+                                <button type="button" class="fas fa-eye read-password-btn" id="read-password-btn-2"></button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h4>__MSG_photo_reminder__<span class="remind"> *</span></h4>
+                            <div style="width: -webkit-fill-available;text-align: center;" id="img_album"></div>
+                            <button id="refresh_album" type="button">__MSG_refresh_image__</button>
+                        </div>
+                        <div class="row">
+                            <h4>__MSG_terms__</h4>
+                            <div class="input-group" style="font-size: 14px;"><input id="terms" type="checkbox" name="terms" required /><label for="terms" class="terms mode_text">__MSG_terms_reminder_1__<a href="d3s1Uzrynv.html">__MSG_terms_reminder_2__</a>__MSG_terms_reminder_3__</label></div>
+                        </div>
+                        <!--<div id='hcaptcha' class="h-captcha" data-sitekey="4913807b-23e7-4c9d-971d-84dabe8290a3" style="text-align: center;"></div>-->
+                        <div class="container-dkpm-register-form-btn">
+                            <button type="sumbit" class="dkpm-register-form-btn" id="dkpm-register-form-btn" disabled>__MSG_register__</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </main>
+        <!--<script src="js/hcaptcha.js" async defer></script>-->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/QBpd8ZpUw4.js"></script>
+        <script defer src="js/sweetalert2.js"></script>
+        <!--<script src="js/jquery-cookie.js"></script>-->
+        <script src="js/ETLFz7k8iZ.js"></script>
+        <script src="js/G4NvsNUN5F.js"></script>
+        <!--<script defer src="js/swup.min.js"></script>
+        <script defer src="js/swup_animation.js"></script>-->
+    </body>
+</html>
