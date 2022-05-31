@@ -1,0 +1,344 @@
+{
+    "settings": {
+      "message": "การตั้งค่า"
+    },
+    "logout": {
+        "message": "ออกจากระบบ"
+    },
+    "password_vault": {
+        "message": "รหัสผ่านห้องนิรภัย"
+    },
+    "password_generator": {
+        "message": "เครื่องกำเนิดรหัสผ่าน"
+    },
+    "version": {
+        "message": "รุ่น 1.0 © JM"
+    },
+    "item_information": {
+        "message": "ข้อมูลรายการ"
+    },
+    "item_name": {
+        "message": "ชื่อรายการ"
+    },
+    "item_icon": {
+        "message": "ไอคอนรายการ"
+    },
+    "cancel": {
+        "message": "ยกเลิก"
+    },
+    "confirm": {
+        "message": "ยืนยัน"
+    },
+    "add_item": {
+        "message": "เพิ่มรายการ"
+    },
+    "item_domain": {
+        "message": "รายการโดเมน"
+    },
+    "domain": {
+        "message": "โดเมน"
+    },
+    "url": {
+        "message": "url"
+    },
+    "user_name": {
+        "message": "ชื่อผู้ใช้"
+    },
+    "user_password": {
+        "message": "รหัสผ่าน"
+    },
+    "remarks": {
+        "message": "หมายเหตุ"
+    },
+    "login": {
+        "message": "เข้าสู่ระบบ"
+    },
+    "register": {
+        "message": "ลงทะเบียน"
+    },
+    "terms": {
+        "message": "ข้อกำหนดและเงื่อนไข"
+    },
+    "register_title": {
+        "message": "ลงทะเบียนบัญชีของคุณเอง"
+    },
+    "email": {
+        "message": "อีเมล"
+    },
+    "retype_password": {
+        "message": "พิมพ์รหัสผ่านอีกครั้ง"
+    },
+    "email_address": {
+        "message": "ที่อยู่อีเมล"
+    },
+    "password_reminder_1": {
+        "message": "ขั้นต่ำ 8 ตัวอักษรและสูงสุด 16 ตัวอักษร"
+    },
+    "password_reminder_2": {
+        "message": "ตัวพิมพ์ใหญ่ ตัวพิมพ์เล็ก และตัวเลขอย่างน้อยหนึ่งตัว"
+    },
+    "forgot_password": {
+        "message": "ลืมรหัสผ่าน"
+    },
+    "copy": {
+        "message": "คลิกเพื่อคัดลอก"
+    },
+    "sign_up_reminder_text": {
+        "message": "ไม่มีบัญชี"
+    },
+    "sign_up_reminder_button": {
+        "message": "สมัครเลย"
+    },
+    "terms_reminder_1": {
+        "message": "ฉันยอมรับ"
+    },
+    "terms_reminder_2": {
+        "message": "ข้อกำหนดและเงื่อนไข"
+    },
+    "terms_reminder_3": {
+        "message": "สำหรับการสมัครใช้บริการนี้ และขอยืนยันว่าฉันได้อ่านนโยบายความเป็นส่วนตัวแล้ว"
+    },
+    "photo_reminder": {
+        "message": "คุณต้องเลือกรูปภาพด้านล่างอย่างน้อยหนึ่งรูปเพื่อลืมการตรวจสอบรหัสผ่าน"
+    },
+    "terms_and_conditions_1": {
+        "message": "ขอบคุณที่ใช้ DoorKnock! เราดีใจที่คุณอยู่ที่นี่ โปรดอ่านข้อตกลงข้อกำหนดในการให้บริการนี้อย่างละเอียดก่อนเข้าถึงหรือใช้ DoorKnock เนื่องจากเป็นสัญญาที่สำคัญระหว่างเรากับผู้ใช้ของเรา เราจึงพยายามทำให้ชัดเจนที่สุด เพื่อความสะดวกของคุณ เราได้นำเสนอข้อกำหนดเหล่านี้ในบทสรุปสั้นๆ ที่ไม่มีผลผูกพัน ตามด้วยข้อกำหนดทางกฎหมายฉบับเต็ม"
+    },
+    "terms_and_conditions_2": {
+        "message": "คุณตกลงว่าการเข้าใช้ไซต์แสดงว่าคุณได้อ่าน เข้าใจ และตกลงที่จะผูกพันตามข้อกำหนดในการให้บริการทั้งหมดเหล่านี้ หากคุณไม่เห็นด้วยกับข้อกำหนดในการให้บริการเหล่านี้ทั้งหมด คุณจะถูกห้ามอย่างชัดแจ้งจากการใช้ไซต์และคุณต้องยุติการใช้งานทันที ข้อกำหนดในการให้บริการเพิ่มเติมหรือเอกสารที่อาจโพสต์บนเว็บไซต์เป็นครั้งคราวจะถูกรวมไว้ในที่นี้โดยชัดแจ้งโดยการอ้างอิง เราขอสงวนสิทธิ์ตามดุลยพินิจของเรา แต่เพียงผู้เดียวในการเปลี่ยนแปลงหรือแก้ไขข้อกำหนดในการให้บริการเหล่านี้ได้ตลอดเวลาและด้วยเหตุผลใดก็ตาม เราจะแจ้งเตือนคุณเกี่ยวกับการเปลี่ยนแปลงใด ๆ โดยอัปเดตวันที่ 'อัปเดตล่าสุด' ของข้อกำหนดในการให้บริการเหล่านี้ และคุณสละสิทธิ์ในการรับการแจ้งเตือนเฉพาะของการเปลี่ยนแปลงแต่ละครั้ง เป็นความรับผิดชอบของคุณที่จะต้องตรวจสอบข้อกำหนดในการให้บริการเหล่านี้เป็นระยะเพื่อรับทราบข้อมูลอัปเดต คุณจะต้องปฏิบัติตามและจะถือว่าได้รับทราบและยอมรับการเปลี่ยนแปลงในข้อกำหนดในการให้บริการที่แก้ไขโดยการใช้ไซต์ต่อไปหลังจากวันที่โพสต์ข้อกำหนดในการให้บริการฉบับแก้ไขดังกล่าว"
+    },
+    "refresh_password": {
+        "message": "สร้างรหัสผ่านใหม่"
+    },
+    "password_length": {
+        "message": "ความยาวรหัสผ่าน"
+    },
+    "password_format": {
+        "message": "รูปแบบรหัสผ่าน"
+    },
+    "minimum_digits": {
+        "message": "จำนวนหลักขั้นต่ำ"
+    },
+    "back": {
+        "message": "กลับ"
+    },
+    "clear": {
+        "message": "ชัดเจน"
+    },
+    "history_record": {
+        "message": "บันทึกประวัติศาสตร์"
+    },
+    "min_letter": {
+        "message": "จำนวนตัวอักษรขั้นต่ำ"
+    },
+    "min_number": {
+        "message": "จำนวนหลักขั้นต่ำ"
+    },
+    "min_symbol": {
+        "message": "จำนวนบิตสัญญาณขั้นต่ำ"
+    },
+    "copied": {
+        "message": "คัดลอกแล้ว"
+    },
+    "clear_question": {
+        "message": "กรุณายืนยันเพื่อล้าง"
+    },
+    "yes": {
+        "message": "ใช่"
+    },
+    "no": {
+        "message": "ไม่"
+    },
+    "clear_success": {
+        "message": "เคลียร์เรียบร้อยแล้ว"
+    },
+    "add_success": {
+        "message": "เพิ่มไปยังฐานข้อมูลเรียบร้อยแล้ว"
+    },
+    "add_fail": {
+        "message": "ไม่สามารถเพิ่มรายการ"
+    },
+    "nothing_to_clear": {
+        "message": "ไม่มีอะไร"
+    },
+    "nothing_item": {
+        "message": "ไม่มีรายการ"
+    },
+    "not_duplicate": {
+        "message": "ไม่ซ้ำกับฐานข้อมูล" 
+    },
+    "duplicate": {
+        "message": "ทำซ้ำ! กรุณาเปลี่ยนรหัสผ่านอื่น"
+    },
+    "delete_item": {
+        "message": "ลบรายการ"
+    },
+    "confirm_to_add": {
+        "message": "คุณต้องการยืนยันรายการใหม่"
+    },
+    "confirm_to_delete": {
+        "message": "คุณแน่ใจหรือไม่ว่าต้องการลบรายการ"
+    },
+    "empty": {
+        "message": "ช่องต้องเว้นว่างไม่ได้"
+    },
+    "delete_success": {
+        "message": "ลบเรียบร้อยแล้ว"
+    },
+    "strong": {
+        "message": "รหัสผ่านของคุณแข็งแกร่งเพียงพอ"
+    },
+    "weak": {
+        "message": "โปรดเปลี่ยนไปใช้รหัสผ่านที่ซับซ้อนกว่านี้"
+    },
+    "existed_account": {
+        "message": "บัญชีที่ลงทะเบียนแล้ว"
+    },
+    "wrong_email": {
+        "message": "รูปแบบอีเมลไม่ถูกต้อง"
+    },
+    "wrong_image": {
+        "message": "ภาพผิด"
+    },
+    "not_match_password": {
+        "message": "รหัสผ่านไม่ตรงกัน"
+    },
+    "wrong_format": {
+        "message": "รูปแบบรหัสผ่านไม่ถูกต้อง"
+    },
+    "registration_success": {
+        "message": "การลงทะเบียนสำเร็จ โปรดไปที่กล่องจดหมายเพื่อเปิดใช้งานบัญชี!"
+    },
+    "wrong_many_times": {
+        "message": "รหัสผ่านผิดมากเกินไป"
+    },
+    "wrong_password": {
+        "message": "รหัสผ่านผิด"
+    },
+    "invalid_account": {
+        "message": "ไม่มีบัญชี"
+    }, 
+    "inactivated_account": {
+        "message": "บัญชียังไม่ได้เปิดใช้งาน"
+    },
+    "confirm_to_logout": {
+        "message": "แน่ใจนะว่าออกจากระบบ"
+    },
+    "add_duplicate": {
+        "message": "มีบัญชีซ้ำ"
+    },
+    "edit_item": {
+        "message": "แก้ไขรายการ"
+    },
+    "system_error": {
+        "message": "ระบบผิดพลาด"
+    },
+    "confirm_to_edit": {
+        "message": "แน่ใจนะว่ายืนยัน"
+    },
+    "edit_success": {
+        "message": "แก้ไขสำเร็จ"
+    },
+    "edit_fail": {
+        "message": "แก้ไขล้มเหลว"
+    },
+    "edit_duplicate": {
+        "message": "มีบัญชีซ้ำ"
+    },
+    "forgot_validation_success": {
+        "message": "ส่งอีเมลตรวจสอบความถูกต้องแล้ว"
+    },
+    "forgot_validation_fail": {
+        "message": "การตรวจสอบล้มเหลว ยังคงอยู่"
+    },
+    "chance": {
+        "message": "โอกาส"
+    },
+    "send": {
+        "message": "ส่ง"
+    },
+    "disconneted": {
+        "message": "เชื่อมต่อผิดพลาด"
+    },
+    "permissions": {
+        "message": "สิทธิ์ไม่เพียงพอ"
+    },
+    "wrong_many_image": {
+        "message": "ผิดหลายครั้งบัญชีถูกล็อค"
+    },
+    "not_close": {
+        "message": "กรุณาอย่าปิดหน้าต่างนี้"
+    },
+    "autofill": {
+        "message": "กรอกอัตโนมัติ"
+    },
+    "autologin": {
+        "message": "เข้าสู่ระบบอัตโนมัติ"
+    },
+    "forgot_reminder": {
+        "message": "กรุณาเลือกตามลำดับภาพที่ท่านเลือกเมื่อลงทะเบียน"
+    },
+    "one_minute": {
+        "message": "1 นาที"
+    },
+    "five_minutes": {
+        "message": "5 นาที"
+    },
+    "fifteen_minutes": {
+        "message": "15 นาที"
+    },
+    "thirty_minutes": {
+        "message": "30 นาที"
+    },
+    "one_hour": {
+        "message": "1 ชั่วโมง"
+    },
+    "two_hours": {
+        "message": "2 ชั่วโมง"
+    },
+    "five_hours": {
+        "message": "5 ชั่วโมง"
+    },
+    "one_day": {
+        "message": "1 วัน"
+    },
+    "never": {
+        "message": "ไม่เคย"
+    },
+    "auto_lock_time": {
+        "message": "เวลาล็อคอัตโนมัติ"
+    },
+    "dark_light_mode": {
+        "message": "โหมดมืดและสว่าง"
+    },
+    "app_language": {
+        "message": "ภาษาของระบบ"
+    },
+    "app_version": {
+        "message": "เวอร์ชันซอฟต์แวร์"
+    },
+    "share": {
+        "message": "แบ่งปัน"
+    },
+    "separator_character": {
+        "message": "ตัวละครแยก"
+    },
+    "word_count": {
+        "message": "การนับจำนวนคำ"
+    },
+    "password": {
+        "message": "รหัสผ่าน"
+    },
+    "passphrase": {
+        "message": "ข้อความรหัสผ่าน"
+    },
+    "password_type": {
+        "message": "ประเภทรหัสผ่าน"
+    },
+    "refresh_passphrase": {
+        "message": "สร้างข้อความรหัสผ่านใหม่"
+    },
+    "refresh_image": {
+        "message": "รีเฟรชภาพ"
+    }
+}

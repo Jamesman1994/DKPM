@@ -1,0 +1,344 @@
+{
+    "settings": {
+        "message": "设定"
+    },
+    "logout": {
+        "message": "登出"
+    },
+    "password_vault": {
+        "message": "密码库"
+    },
+    "password_generator": {
+        "message": "密码产生器"
+    },
+    "version": {
+        "message": "版本 1.0 © JM"
+    },
+    "item_information": {
+        "message": "项目资讯"
+    },
+    "item_name": {
+        "message": "项目名称"
+    },
+    "item_icon": {
+        "message": "项目图标"
+    },
+    "cancel": {
+        "message": "取消"
+    },
+    "confirm": {
+        "message": "确认"
+    },
+    "add_item": {
+        "message": "新增项目"
+    },
+    "item_domain": {
+        "message": "项目域名"
+    },
+    "domain": {
+        "message": "域"
+    },
+    "url": {
+        "message": "網址"
+    },
+    "user_name": {
+        "message": "用户名称"
+    },
+    "user_password": {
+        "message": "密码"
+    },
+    "remarks": {
+        "message": "备注"
+    },
+    "login": {
+        "message": "登入"
+    },
+    "register": {
+        "message": "注册"
+    },
+    "terms": {
+        "message": "条款和条件"
+    },
+    "register_title": {
+        "message": "注册账户"
+    },
+    "email": {
+        "message": "电邮"
+    },
+    "retype_password": {
+        "message": "重新输入密码"
+    },
+    "email_address": {
+        "message": "电邮地址"
+    },
+    "password_reminder_1": {
+        "message": "最少 8 个字符，最多 16 个字符"
+    },
+    "password_reminder_2": {
+        "message": "至少一个大写字母、小写字母和数字"
+    },
+    "forgot_password": {
+        "message": "忘记密码"
+    },
+    "copy": {
+        "message": "按下即可复制"
+    },
+    "sign_up_reminder_text": {
+        "message": "你没有账户吗"
+    },
+    "sign_up_reminder_button": {
+        "message": "立即注册"
+    },
+    "terms_reminder_1": {
+        "message": "我接受注册此服务的"
+    },
+    "terms_reminder_2": {
+        "message": "条款和条件"
+    },
+    "terms_reminder_3": {
+        "message": "，并在此确认我已阅读隐私政策。"
+    },
+    "photo_reminder": {
+        "message": "您必须在下面选择一张或多张照片进行忘记密码验证"
+    },
+    "terms_and_conditions_1": {
+        "message": "感谢您使用 DoorKnock！我们很高兴你在这里。在访问或使用 DoorKnock 之前，请仔细阅读本服务条款协议。因为它是我们与用户之间如此重要的合同，所以我们已尽力使其尽可能清晰。为方便起见，我们以不具约束力的简短摘要形式提供了这些条款，然后是完整的法律条款。"
+    },
+    "terms_and_conditions_2": {
+        "message": "您同意访问本网站即表示您已阅读、理解并同意受所有这些服务条款的约束。如果您不同意所有这些服务条款，则明确禁止您使用本网站，并且您必须立即停止使用。可能不时发布在网站上的补充服务条款或文件特此通过引用明确并入本文。我们保留自行决定随时以任何理由对这些服务条款进行更改或修改的权利。我们将通过更新这些服务条款的“最后更新”日期来提醒您任何更改，并且您放弃接收每个此类更改的具体通知的任何权利。您有责任定期查看这些服务条款以随时了解更新。在修订后的服务条款发布之日后，您继续使用本网站，您将受到并被视为已了解并接受任何修订后的服务条款的更改。"
+    },
+    "refresh_password": {
+        "message": "重新产生密码"
+    },
+    "password_length": {
+        "message": "密码长度"
+    },
+    "password_format": {
+        "message": "密码格式"
+    },
+    "minimum_digits": {
+        "message": "最小位数"
+    },
+    "back": {
+        "message": "返回"
+    },
+    "clear": {
+        "message": "清除"
+    },
+    "history_record": {
+        "message": "历史记录"
+    },
+    "min_letter": {
+        "message": "最少字母位数"
+    },
+    "min_number": {
+        "message": "最少数字位数"
+    },
+    "min_symbol": {
+        "message": "最少符号位数"
+    },
+    "copied": {
+        "message": "已复制"
+    },
+    "clear_question": {
+        "message": "请问是否确认清除"
+    },
+    "yes": {
+        "message": "是"
+    },
+    "no": {
+        "message": "否"
+    },
+    "clear_success": {
+        "message": "已成功清除"
+    },
+    "add_success": {
+        "message": "已成功新增到资料"
+    },
+    "add_fail": {
+        "message": "新增项目失败,部份资料错误"
+    },
+    "nothing_to_clear": {
+        "message": "没有可显示的密码"
+    },
+    "nothing_item": {
+        "message": "没有任何项目"
+    },
+    "not_duplicate": {
+        "message": "与伺服器的密码并没有出现重复" 
+    },
+    "duplicate": {
+        "message": "与伺服器的密码出现重覆,请使用其他密码"
+    },
+    "delete_item": {
+        "message": "删除项目"
+    },
+    "confirm_to_add": {
+        "message": "请问是否确认新增项目"
+    },
+    "confirm_to_delete": {
+        "message": "请问是否确认删除项目"
+    },
+    "empty": {
+        "message": "资料不能漏空"
+    },
+    "delete_success": {
+        "message": "已成功删除"
+    },
+    "strong": {
+        "message": "你所用的密码安全强度足够"
+    },
+    "weak": {
+        "message": "你所用的密码安全强度并不足够,建议转用更复杂的密码"
+    },
+    "existed_account": {
+        "message": "帐户已被注册"
+    },
+    "wrong_email": {
+        "message": "电邮格式错误"
+    },
+    "wrong_image": {
+        "message": "图片选择错误"
+    },
+    "not_match_password": {
+        "message": "密码并不一致"
+    },
+    "wrong_format": {
+        "message": "密码格式错误"
+    },
+    "registration_success": {
+        "message": "您已注册成功,请到邮箱激活您的帐户"
+    },
+    "wrong_many_times": {
+        "message": "密码错误次数太多"
+    },
+    "wrong_password": {
+        "message": "密码错误"
+    },
+    "invalid_account": {
+        "message": "帐户并不存在"
+    }, 
+    "inactivated_account": {
+        "message": "A您的帐户尚未激活,请先到邮箱激"
+    },
+    "confirm_to_logout": {
+        "message": "请问是否确认登出"
+    },
+    "add_duplicate": {
+        "message": "已有相同帐户"
+    },
+    "edit_item": {
+        "message": "编辑项目"
+    },
+    "system_error": {
+        "message": "系统出现问题"
+    },
+    "confirm_to_edit": {
+        "message": "请问是否确认编辑项目"
+    },
+    "edit_success": {
+        "message": "已成功编辑"
+    },
+    "edit_fail": {
+        "message": "新增项目失败,部份资料错误"
+    },
+    "edit_duplicate": {
+        "message": "已有相同帐户"
+    },
+    "forgot_validation_success": {
+        "message": "验证完成,更改密码电邮已送出"
+    },
+    "forgot_validation_fail": {
+        "message": "验证失败,您尚余"
+    },
+    "chance": {
+        "message": "机会"
+    },
+    "send": {
+        "message": "传送"
+    },
+    "disconneted": {
+        "message": "连线出现问题"
+    },
+    "permissions": {
+        "message": "权限不足"
+    },
+    "wrong_many_image": {
+        "message": "图片选择次序错误次数太多,帐户已被锁住"
+    },
+    "not_close": {
+        "message": "请勿关掉视窗"
+    },
+    "autofill": {
+        "message": "自动填写"
+    },
+    "autologin": {
+        "message": "自动登入"
+    },
+    "forgot_reminder": {
+        "message": "请按照您注册时选择的图片顺序选择"
+    },
+    "one_minute": {
+        "message": "1 分钟"
+    },
+    "five_minutes": {
+        "message": "5 分钟"
+    },
+    "fifteen_minutes": {
+        "message": "15 分钟"
+    },
+    "thirty_minutes": {
+        "message": "30 分钟"
+    },
+    "one_hour": {
+        "message": "1 小时"
+    },
+    "two_hours": {
+        "message": "2 小时"
+    },
+    "five_hours": {
+        "message": "5 小时"
+    },
+    "one_day": {
+        "message": "1 天"
+    },
+    "never": {
+        "message": "永久"
+    },
+    "auto_lock_time": {
+        "message": "自动锁定时间"
+    },
+    "dark_light_mode": {
+        "message": "光暗模式"
+    },
+    "app_language": {
+        "message": "系统语言"
+    },
+    "app_version": {
+        "message": "系统版本"
+    },
+    "share": {
+        "message": "分享"
+    },
+    "separator_character": {
+        "message": "文字分隔字元"
+    },
+    "word_count": {
+        "message": "单词数"
+    },
+    "password": {
+        "message": "密码"
+    },
+    "passphrase": {
+        "message": "密码短语"
+    },
+    "password_type": {
+        "message": "密码类型"
+    },
+    "refresh_passphrase": {
+        "message": "重新产生密码短语"
+    },
+    "refresh_image": {
+        "message": "刷新图像"
+    }
+}

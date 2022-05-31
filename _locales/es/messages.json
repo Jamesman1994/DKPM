@@ -1,0 +1,344 @@
+{
+    "settings": {
+      "message": "Ajustes"
+    },
+    "logout": {
+        "message": "Cerrar sesión"
+    },
+    "password_vault": {
+        "message": "Password Vault"
+    },
+    "password_generator": {
+        "message": "Generador de contraseñas"
+    },
+    "version": {
+        "message": "versión 1.0 © JM"
+    },
+    "item_information": {
+        "message": "Información del artículo"
+    },
+    "item_name": {
+        "message": "Nombre del árticulo"
+    },
+    "item_icon": {
+        "message": "Icono de artículo"
+    },
+    "cancel": {
+        "message": "Cancelar"
+    },
+    "confirm": {
+        "message": "Confirmar"
+    },
+    "add_item": {
+        "message": "Añadir artículo"
+    },
+    "item_domain": {
+        "message": "Dominio del artículo"
+    },
+    "domain": {
+        "message": "Dominio"
+    },
+    "url": {
+        "message": "URL"
+    },
+    "user_name": {
+        "message": "Nombre de usuario"
+    },
+    "user_password": {
+        "message": "Contraseña"
+    },
+    "remarks": {
+        "message": "Observaciones"
+    },
+    "login": {
+        "message": "Acceso"
+    },
+    "register": {
+        "message": "Registro"
+    },
+    "terms": {
+        "message": "Términos y condiciones"
+    },
+    "register_title": {
+        "message": "Registre su propia cuenta"
+    },
+    "email": {
+        "message": "Correo electrónico"
+    },
+    "retype_password": {
+        "message": "Vuelva a escribir la contraseña"
+    },
+    "email_address": {
+        "message": "Dirección de correo electrónico"
+    },
+    "password_reminder_1": {
+        "message": "mínimo 8 caracteres y máximo 16 caracteres"
+    },
+    "password_reminder_2": {
+        "message": "Al menos una letra mayúscula, una letra minúscula y un número"
+    },
+    "forgot_password": {
+        "message": "Has olvidado tu contraseña"
+    },
+    "copy": {
+        "message": "Haga clic para copiar"
+    },
+    "sign_up_reminder_text": {
+        "message": "no tienes una cuenta"
+    },
+    "sign_up_reminder_button": {
+        "message": "Regístrate ahora"
+    },
+    "terms_reminder_1": {
+        "message": "acepto el"
+    },
+    "terms_reminder_2": {
+        "message": "Términos y condiciones"
+    },
+    "terms_reminder_3": {
+        "message": " por suscribirme a este servicio, y por la presente confirmo que he leído la política de privacidad."
+    },
+    "photo_reminder": {
+        "message": "Debe elegir una o más fotos a continuación para olvidar la verificación de contraseña"
+    },
+    "terms_and_conditions_1": {
+        "message": "¡Gracias por usar DoorKnock! Estamos felices de que estés aquí. Lea atentamente este acuerdo de Términos de servicio antes de acceder o utilizar DoorKnock. Debido a que es un contrato tan importante entre nosotros y nuestros usuarios, hemos tratado de dejarlo lo más claro posible. Para su comodidad, hemos presentado estos términos en un breve resumen no vinculante seguido de los términos legales completos."
+    },
+    "terms_and_conditions_2": {
+        "message": "Usted acepta que al acceder al Sitio, ha leído, entendido y acepta estar sujeto a todos estos Términos de servicio. Si no está de acuerdo con todos estos Términos de servicio, se le prohíbe expresamente usar el Sitio y debe interrumpir su uso de inmediato. Los Términos de servicio complementarios o los documentos que pueden publicarse en el Sitio de vez en cuando se incorporan expresamente aquí como referencia. Nos reservamos el derecho, a nuestro exclusivo criterio, de realizar cambios o modificaciones a estos Términos de servicio en cualquier momento y por cualquier motivo. Le avisaremos sobre cualquier cambio actualizando la fecha de 'Última actualización' de estos Términos de servicio, y usted renuncia a cualquier derecho a recibir un aviso específico de cada cambio. Es su responsabilidad revisar periódicamente estos Términos de servicio para mantenerse informado de las actualizaciones. Usted estará sujeto a, y se considerará que ha sido informado y aceptado, los cambios en los Términos de servicio revisados ​​por su uso continuado del Sitio después de la fecha de publicación de dichos Términos de servicio revisados."
+    },
+    "refresh_password": {
+        "message": "Regenerar contraseña"
+    },
+    "password_length": {
+        "message": "Longitud de la contraseña"
+    },
+    "password_format": {
+        "message": "Formato de contraseña"
+    },
+    "minimum_digits": {
+        "message": "Número mínimo de dígitos"
+    },
+    "back": {
+        "message": "atrás"
+    },
+    "clear": {
+        "message": "Claro"
+    },
+    "history_record": {
+        "message": "registro de la historia"
+    },
+    "min_letter": {
+        "message": "Número mínimo de letras"
+    },
+    "min_number": {
+        "message": "Número mínimo de dígitos"
+    },
+    "min_symbol": {
+        "message": "Número mínimo de bits de signo"
+    },
+    "copied": {
+        "message": "Copiado"
+    },
+    "clear_question": {
+        "message": "Por favor confirme para borrar"
+    },
+    "yes": {
+        "message": "SÍ"
+    },
+    "no": {
+        "message": "NO"
+    },
+    "clear_success": {
+        "message": "Borrado con éxito"
+    },
+    "add_success": {
+        "message": "Añadido a la base de datos con éxito"
+    },
+    "add_fail": {
+        "message": "No se pudo agregar el elemento"
+    },
+    "nothing_to_clear": {
+        "message": "Nada"
+    },
+    "nothing_item": {
+        "message": "No hay artículos"
+    },
+    "not_duplicate": {
+        "message": "No duplicar con la base de datos." 
+    },
+    "duplicate": {
+        "message": "¡Duplicar! Por favor cambie otra contraseña."
+    },
+    "delete_item": {
+        "message": "Remover el artículo"
+    },
+    "confirm_to_add": {
+        "message": "¿Quieres confirmar el nuevo artículo?"
+    },
+    "confirm_to_delete": {
+        "message": "¿Estás seguro de que quieres eliminar el artículo?"
+    },
+    "empty": {
+        "message": "El campo no se puede dejar en blanco"
+    },
+    "delete_success": {
+        "message": "Borrado exitosamente"
+    },
+    "strong": {
+        "message": "Su contraseña es lo suficientemente fuerte"
+    },
+    "weak": {
+        "message": "Cambie a una contraseña más compleja"
+    },
+    "existed_account": {
+        "message": "Cuenta ya registrada"
+    },
+    "wrong_email": {
+        "message": "Formato de correo electrónico incorrecto"
+    },
+    "wrong_image": {
+        "message": "Imagen incorrecta"
+    },
+    "not_match_password": {
+        "message": "Las contraseñas no coinciden"
+    },
+    "wrong_format": {
+        "message": "Formato de contraseña incorrecto"
+    },
+    "registration_success": {
+        "message": "The registration is successful, please go to the mailbox to activate the account!"
+    },
+    "wrong_many_times": {
+        "message": "Demasiadas contraseñas incorrectas"
+    },
+    "wrong_password": {
+        "message": "Contraseña incorrecta"
+    },
+    "invalid_account": {
+        "message": "La cuenta no existe"
+    }, 
+    "inactivated_account": {
+        "message": "La cuenta no ha sido activada"
+    },
+    "confirm_to_logout": {
+        "message": "Estas seguro de cerrar sesión"
+    },
+    "add_duplicate": {
+        "message": "Hay cuenta duplicada"
+    },
+    "edit_item": {
+        "message": "Editar artículo"
+    },
+    "system_error": {
+        "message": "Error del sistema"
+    },
+    "confirm_to_edit": {
+        "message": "Estas seguro de confirmar"
+    },
+    "edit_success": {
+        "message": "Editar con éxito"
+    },
+    "edit_fail": {
+        "message": "Editar con fallida"
+    },
+    "edit_duplicate": {
+        "message": "Hay cuenta duplicada"
+    },
+    "forgot_validation_success": {
+        "message": "Se envía correo electrónico de validación"
+    },
+    "forgot_validation_fail": {
+        "message": "Error de validación, permanece"
+    },
+    "chance": {
+        "message": "oportunidad"
+    },
+    "send": {
+        "message": "Enviar"
+    },
+    "disconneted": {
+        "message": "Error de conexión"
+    },
+    "permissions": {
+        "message": "Permisos insuficientes"
+    },
+    "wrong_many_image": {
+        "message": "Equivocado muchas veces, la cuenta está bloqueada"
+    },
+    "not_close": {
+        "message": "Por favor, no cierres esta ventana."
+    },
+    "autofill": {
+        "message": "Relleno automático"
+    },
+    "autologin": {
+        "message": "Ingreso automático"
+    },
+    "forgot_reminder": {
+        "message": "Elija de acuerdo con el orden de las imágenes que seleccionó cuando se registró"
+    },
+    "one_minute": {
+        "message": "1 minuto"
+    },
+    "five_minutes": {
+        "message": "5 mins"
+    },
+    "fifteen_minutes": {
+        "message": "5 minutos"
+    },
+    "thirty_minutes": {
+        "message": "30 minutos"
+    },
+    "one_hour": {
+        "message": "1 hora"
+    },
+    "two_hours": {
+        "message": "2 horas"
+    },
+    "five_hours": {
+        "message": "5 horas"
+    },
+    "one_day": {
+        "message": "1 día"
+    },
+    "never": {
+        "message": "Nunca"
+    },
+    "auto_lock_time": {
+        "message": "Tiempo de bloqueo automático"
+    },
+    "dark_light_mode": {
+        "message": "Modo oscuro y claro"
+    },
+    "app_language": {
+        "message": "Lenguaje del sistema"
+    },
+    "app_version": {
+        "message": "Versión del software"
+    },
+    "share": {
+        "message": "Cuota"
+    },
+    "separator_character": {
+        "message": "Carácter separador"
+    },
+    "word_count": {
+        "message": "El recuento de palabras"
+    },
+    "password": {
+        "message": "Clave"
+    },
+    "passphrase": {
+        "message": "Frase de contraseña"
+    },
+    "password_type": {
+        "message": "Tipo de contraseña"
+    },
+    "refresh_passphrase": {
+        "message": "Regenerar frase de contraseña"
+    },
+    "refresh_image": {
+        "message": "Actualizar imagen"
+    }
+}

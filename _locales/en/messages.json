@@ -1,0 +1,346 @@
+{
+    "settings": {
+      "message": "Settings"
+    },
+    "logout": {
+        "message": "Logout"
+    },
+    "password_vault": {
+        "message": "Password Vault"
+    },
+    "password_generator": {
+        "message": "Password Generator"
+    },
+    "version": {
+        "message": "version 1.0 © JM"
+    },
+    "item_information": {
+        "message": "Item Information"
+    },
+    "item_name": {
+        "message": "Item Name"
+    },
+    "item_icon": {
+        "message": "Item Icon"
+    },
+    "cancel": {
+        "message": "Cancel"
+    },
+    "confirm": {
+        "message": "Confirm"
+    },
+    "add_item": {
+        "message": "Add Item"
+    },
+    "item_domain": {
+        "message": "Item Domain"
+    },
+    "domain": {
+        "message": "Domain"
+    },
+    "url": {
+        "message": "URL"
+    },
+    "user_name": {
+        "message": "User Name"
+    },
+    "user_password": {
+        "message": "Password"
+    },
+    "remarks": {
+        "message": "Remarks"
+    },
+    "login": {
+        "message": "Login"
+    },
+    "register": {
+        "message": "Register"
+    },
+    "terms": {
+        "message": "Terms and Conditions"
+    },
+    "register_title": {
+        "message": "Register Your Own Account"
+    },
+    "email": {
+        "message": "Email"
+    },
+    "retype_password": {
+        "message": "Retype Password"
+    },
+    "email_address": {
+        "message": "Email Address"
+    },
+    "password_reminder_1": {
+        "message": "minimum 8 characters and maximum 16 characters"
+    },
+    "password_reminder_2": {
+        "message": "At least one uppercase letter, lowercase letter and number"
+    },
+    "forgot_password": {
+        "message": "Forgot Password"
+    },
+    "copy": {
+        "message": "Click to copy"
+    },
+    "sign_up_reminder_text": {
+        "message": "Don't you have an account"
+    },
+    "sign_up_reminder_button": {
+        "message": "Sign up now"
+    },
+    "terms_reminder_1": {
+        "message": "I accept the "
+    },
+    "terms_reminder_2": {
+        "message": "terms and conditions"
+    },
+    "terms_reminder_3": {
+        "message": " for signing up to this service, and hereby confirm I have read the privacy policy."
+    },
+    "photo_reminder": {
+        "message": "You must choose one or more photos below for forgetting password verification"
+    },
+    "terms_and_conditions_1": {
+        "message": "Thank you for using DoorKnock! We‘re happy you‘re here. Please read this Terms of Service agreement carefully before accessing or using DoorKnock. Because it is such an important contract between us and our users, we have tried to make it as clear as possible. For your convenience, we have presented these terms in a short non-binding summary followed by the full legal terms."
+    },
+    "terms_and_conditions_2": {
+        "message": "You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms of Service. If you do not agree with all of these Terms of Service, then you are expressly prohibited from using the Site and you must discontinue use immediately. Supplemental Terms of Service or documents that may be posted on the Site from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Terms of Service at any time and for any reason. We will alert you about any changes by updating the “Last updated” date of these Terms of Service, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Terms of Service to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Terms of Service by your continued use of the Site after the date such revised Terms of Service are posted."
+    },
+    "refresh_password": {
+        "message": "Regenerate Password"
+    },
+    "password_length": {
+        "message": "Password Length"
+    },
+    "password_format": {
+        "message": "Password Format"
+    },
+    "minimum_digits": {
+        "message": "Minimum number of digits"
+    },
+    "back": {
+        "message": "Back"
+    },
+    "clear": {
+        "message": "Clear"
+    },
+    "history_record": {
+        "message": "History Record"
+    },
+    "min_letter": {
+        "message": "Minimum number of letters"
+    },
+    "min_number": {
+        "message": "Minimum number of digits"
+    },
+    "min_symbol": {
+        "message": "Minimum number of sign bits"
+    },
+    "copied": {
+        "message": "Copied"
+    },
+    "clear_question": {
+        "message": "Please confirm to clear"
+    },
+    "yes": {
+        "message": "YES"
+    },
+    "no": {
+        "message": "NO"
+    },
+    "clear_success": {
+        "message": "Cleared successfully"
+    },
+    "add_success": {
+        "message": "Added to the database successfully"
+    },
+    "add_fail": {
+        "message": "Failed to add item"
+    },
+    "nothing_to_clear": {
+        "message": "Nothing"
+    },
+    "nothing_item": {
+        "message": "No items"
+    },
+    "not_duplicate": {
+        "message": "Not duplicate with the database" 
+    },
+    "duplicate": {
+        "message": "Duplicate! Please change other password."
+    },
+    "delete_item": {
+        "message": "Remove Item"
+    },
+    "confirm_to_add": {
+        "message": "Do you want to confirm the new item"
+    },
+    "confirm_to_delete": {
+        "message": "Are you sure you want to delete the item?"
+    },
+    "empty": {
+        "message": "Field cannot be left blank"
+    },
+    "delete_success": {
+        "message": "Deleted successfully"
+    },
+    "strong": {
+        "message": "Your password is strong enough"
+    },
+    "weak": {
+        "message": "Please switch to a more complex password"
+    },
+    "existed_account": {
+        "message": "Account already registered"
+    },
+    "wrong_email": {
+        "message": "Wrong email format"
+    },
+    "wrong_image": {
+        "message": "Wrong Image"
+    },
+    "not_match_password": {
+        "message": "Passwords do not match"
+    },
+    "wrong_format": {
+        "message": "Wrong password format"
+    },
+    "registration_success": {
+        "message": "The registration is successful, please go to the mailbox to activate the account!"
+    },
+    "wrong_many_times": {
+        "message": "Too many wrong passwords"
+    },
+    "wrong_password": {
+        "message": "Wrong Password"
+    },
+    "invalid_account": {
+        "message": "Account does not exist"
+    }, 
+    "inactivated_account": {
+        "message": "Account has not been activated"
+    },
+    "confirm_to_logout": {
+        "message": "Are you sure to logout"
+    },
+    "add_duplicate": {
+        "message": "There is duplicate account"
+    },
+    "edit_item": {
+        "message": "Edit Item"
+    },
+    "system_error": {
+        "message": "System Error"
+    },
+    "confirm_to_edit": {
+        "message": "Are you sure to confirm"
+    },
+    "edit_success": {
+        "message": "Edit Successfully"
+    },
+    "edit_fail": {
+        "message": "Edit Fail"
+    },
+    "edit_duplicate": {
+        "message": "There is duplicate account"
+    },
+    "forgot_validation_success": {
+        "message": "Validation Email is sent"
+    },
+    "forgot_validation_fail": {
+        "message": "Validation fail, remain"
+    },
+    "chance": {
+        "message": "chance"
+    },
+    "send": {
+        "message": "Send"
+    },
+    "disconneted": {
+        "message": "Connect Error"
+    },
+    "permissions": {
+        "message": "Insufficient permissions"
+    },
+    "wrong_many_image": {
+        "message": "Wrong many times, account is locked"
+    },
+    "not_close": {
+        "message": "Please don't close this window"
+    },
+    "autofill": {
+        "message": "Auto Fill in"
+    },
+    "autologin": {
+        "message": "Auto Login"
+    },
+    "forgot_reminder": {
+        "message": "Please choose according to the order of pictures you selected when you registered"
+    },
+    "one_minute": {
+        "message": "1 min"
+    },
+    "five_minutes": {
+        "message": "5 mins"
+    },
+    "fifteen_minutes": {
+        "message": "15 mins"
+    },
+    "thirty_minutes": {
+        "message": "30 mins"
+    },
+    "one_hour": {
+        "message": "1 hour"
+    },
+    "two_hours": {
+        "message": "2 hours"
+    },
+    "five_hours": {
+        "message": "5 hours"
+    },
+    "one_day": {
+        "message": "1 day"
+    },
+    "never": {
+        "message": "Never"
+    },
+    "auto_lock_time": {
+        "message": "Auto Lock time"
+    },
+    "dark_light_mode": {
+        "message": "Dark and light mode"
+    },
+    "app_language": {
+        "message": "System language"
+    },
+    "app_version": {
+        "message": "Software version"
+    },
+    "share": {
+        "message": "Share"
+    },
+    "separator_character": {
+        "message": "Separator Character"
+    },
+    "word_count": {
+        "message": "Word Count"
+    },
+    "password": {
+        "message": "Password"
+    },
+    "passphrase": {
+        "message": "Passphrase"
+    },
+    "password_type": {
+        "message": "Password Type"
+    },
+    "refresh_passphrase": {
+        "message": "Regenerate Passphrase"
+    },
+    "refresh_image": {
+        "message": "Refresh image"
+    }
+}
+
+

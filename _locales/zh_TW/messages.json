@@ -1,0 +1,344 @@
+{
+    "settings": {
+        "message": "設定"
+    },
+    "logout": {
+        "message": "登出"
+    },
+    "password_vault": {
+        "message": "密碼庫"
+    },
+    "password_generator": {
+        "message": "密碼產生器"
+    },
+    "version": {
+        "message": "版本 1.0 © JM"
+    },
+    "item_information": {
+        "message": "項目資訊"
+    },
+    "item_name": {
+        "message": "項目名稱"
+    },
+    "item_icon": {
+        "message": "項目圖標"
+    },
+    "cancel": {
+        "message": "取消"
+    },
+    "confirm": {
+        "message": "確認"
+    },
+    "add_item": {
+        "message": "新增項目"
+    },
+    "item_domain": {
+        "message": "項目域名"
+    },
+    "domain": {
+        "message": "域"
+    },
+    "url": {
+        "message": "網址"
+    },
+    "user_name": {
+        "message": "用戶名稱"
+    },
+    "user_password": {
+        "message": "密碼"
+    },
+    "remarks": {
+        "message": "備註"
+    },
+    "login": {
+        "message": "登入"
+    },
+    "register": {
+        "message": "註冊"
+    },
+    "terms": {
+        "message": "條款和條件"
+    },
+    "register_title": {
+        "message": "註冊賬戶"
+    },
+    "email": {
+        "message": "電郵"
+    },
+    "retype_password": {
+        "message": "重新輸入密碼"
+    },
+    "email_address": {
+        "message": "電郵地址"
+    },
+    "password_reminder_1": {
+        "message": "最少 8 個字符，最多 16 個字符"
+    },
+    "password_reminder_2": {
+        "message": "至少一個大寫字母、小寫字母和數字"
+    },
+    "forgot_password": {
+        "message": "忘記密碼"
+    },
+    "copy": {
+        "message": "按下即可複製"
+    },
+    "sign_up_reminder_text": {
+        "message": "你沒有賬戶嗎"
+    },
+    "sign_up_reminder_button": {
+        "message": "立即註冊"
+    },
+    "terms_reminder_1": {
+        "message": "我接受註冊此服務的"
+    },
+    "terms_reminder_2": {
+        "message": "條款和條件"
+    },
+    "terms_reminder_3": {
+        "message": "，並在此確認我已閱讀隱私政策。"
+    },
+    "photo_reminder": {
+        "message": "按你的順序選擇這四張圖片,然後緊記這個順序"
+    },
+    "terms_and_conditions_1": {
+        "message": "感謝您使用 DoorKnock！ 我們很高興你在這裡。 在訪問或使用 DoorKnock 之前，請仔細閱讀本服務條款協議。 因為它是我們與用戶之間如此重要的合同，所以我們已盡力使其盡可能清晰。 為方便起見，我們以不具約束力的簡短摘要形式提供了這些條款，然後是完整的法律條款。"
+    },
+    "terms_and_conditions_2": {
+        "message": "您同意訪問本網站即表示您已閱讀、理解並同意受所有這些服務條款的約束。如果您不同意所有這些服務條款，則明確禁止您使用本網站，並且您必須立即停止使用。可能不時發佈在網站上的補充服務條款或文件特此通過引用明確併入本文。我們保留自行決定隨時以任何理由對這些服務條款進行更改或修改的權利。我們將通過更新這些服務條款的“最後更新”日期來提醒您任何更改，並且您放棄接收每個此類更改的具體通知的任何權利。您有責任定期查看這些服務條款以隨時了解更新。在修訂後的服務條款發布之日後，您繼續使用本網站，您將受到並被視為已了解並接受任何修訂後的服務條款的更改。"
+    },
+    "refresh_password": {
+        "message": "重新產生密碼"
+    },
+    "password_length": {
+        "message": "密碼長度"
+    },
+    "password_format": {
+        "message": "密碼格式"
+    },
+    "minimum_digits": {
+        "message": "最少出現位數"
+    },
+    "back": {
+        "message": "返回"
+    },
+    "clear": {
+        "message": "清除"
+    },
+    "history_record": {
+        "message": "歷史記錄"
+    },
+    "min_letter": {
+        "message": "最少字母位數"
+    },
+    "min_number": {
+        "message": "最少數字位數"
+    },
+    "min_symbol": {
+        "message": "最少符號位數"
+    },
+    "copied": {
+        "message": "已複製"
+    },
+    "clear_question": {
+        "message": "請問是否確認清除"
+    },
+    "yes": {
+        "message": "是"
+    },
+    "no": {
+        "message": "否"
+    },
+    "clear_success": {
+        "message": "已成功清除"
+    },
+    "add_success": {
+        "message": "已成功新增到資料庫"
+    },
+    "add_fail": {
+        "message": "新增項目失敗,部份資料錯誤"
+    },
+    "nothing_to_clear": {
+        "message": "沒有可顯示的密碼"
+    },
+    "nothing_item": {
+        "message": "沒有任何項目"
+    },
+    "not_duplicate": {
+        "message": "與伺服器的密碼並沒有出現重複" 
+    },
+    "duplicate": {
+        "message": "與伺服器的密碼出現重覆,請使用其他密碼"
+    },
+    "delete_item": {
+        "message": "刪除項目"
+    },
+    "confirm_to_add": {
+        "message": "請問是否確認新增項目"
+    },
+    "confirm_to_delete": {
+        "message": "請問是否確認刪除項目"
+    },
+    "empty": {
+        "message": "資料不能漏空"
+    },
+    "delete_success": {
+        "message": "已成功刪除"
+    },
+    "strong": {
+        "message": "你所用的密碼安全強度足夠"
+    },
+    "weak": {
+        "message": "你所用的密碼安全強度並不足夠,建議轉用更複雜的密碼"
+    },
+    "existed_account": {
+        "message": "帳戶已被註冊"
+    },
+    "wrong_email": {
+        "message": "電郵格式錯誤"
+    },
+    "wrong_image": {
+        "message": "圖片選擇錯誤"
+    },
+    "not_match_password": {
+        "message": "密碼並不一致"
+    },
+    "wrong_format": {
+        "message": "密碼格式錯誤"
+    },
+    "registration_success": {
+        "message": "您已註冊成功,請到郵箱激活您的帳戶"
+    },
+    "wrong_many_password": {
+        "message": "密碼錯誤次數太多"
+    },
+    "wrong_password": {
+        "message": "密碼錯誤"
+    },
+    "invalid_account": {
+        "message": "帳戶並不存在"
+    }, 
+    "inactivated_account": {
+        "message": "您的帳戶尚未激活,請先到郵箱激活"
+    },
+    "confirm_to_logout": {
+        "message": "請問是否確認登出"
+    },
+    "add_duplicate": {
+        "message": "已有相同帳戶"
+    },
+    "edit_item": {
+        "message": "編輯項目"
+    },
+    "system_error": {
+        "message": "系統出現問題"
+    },
+    "confirm_to_edit": {
+        "message": "請問是否確認編輯項目"
+    },
+    "edit_success": {
+        "message": "已成功編輯"
+    },
+    "edit_fail": {
+        "message": "新增項目失敗,部份資料錯誤"
+    },
+    "edit_duplicate": {
+        "message": "已有相同帳戶"
+    },
+    "forgot_validation_success": {
+        "message": "驗證完成,更改密碼電郵已送出"
+    },
+    "forgot_validation_fail": {
+        "message": "驗證失敗,您尚餘"
+    },
+    "chance": {
+        "message": "機會"
+    },
+    "send": {
+        "message": "傳送"
+    },
+    "disconneted": {
+        "message": "連線出現問題"
+    },
+    "permissions": {
+        "message": "權限不足"
+    },
+    "wrong_many_image": {
+        "message": "圖片選擇次序錯誤次數太多,帳戶已被鎖住"
+    },
+    "not_close": {
+        "message": "請勿關掉視窗"
+    },
+    "autofill": {
+        "message": "自動填寫"
+    },
+    "autologin": {
+        "message": "自動登入"
+    },
+    "forgot_reminder": {
+        "message": "請按照您註冊時選擇的圖片順序選擇"
+    },
+    "one_minute": {
+        "message": "1分鐘"
+    },
+    "five_minutes": {
+        "message": "5分鐘"
+    },
+    "fifteen_minutes": {
+        "message": "15分鐘"
+    },
+    "thirty_minutes": {
+        "message": "30分鐘"
+    },
+    "one_hour": {
+        "message": "1小時"
+    },
+    "two_hours": {
+        "message": "2小時"
+    },
+    "five_hours": {
+        "message": "5小時"
+    },
+    "one_day": {
+        "message": "1天"
+    },
+    "forever": {
+        "message": "永久"
+    },
+    "auto_lock_time": {
+        "message": "自動鎖定時間"
+    },
+    "dark_light_mode": {
+        "message": "光暗模式"
+    },
+    "app_language": {
+        "message": "系統語言"
+    },
+    "app_version": {
+        "message": "系統版本"
+    },
+    "share": {
+        "message": "分享"
+    },
+    "separator_character": {
+        "message": "文字分隔字元"
+    },
+    "word_count": {
+        "message": "單詞數"
+    },
+    "password": {
+        "message": "密碼"
+    },
+    "passphrase": {
+        "message": "密碼短語"
+    },
+    "password_type": {
+        "message": "密碼類型"
+    },
+    "refresh_passphrase": {
+        "message": "重新產生密碼短語"
+    },
+    "refresh_image": {
+        "message": "刷新圖片"
+    }
+}   

@@ -1,0 +1,344 @@
+{
+    "settings": {
+        "message": "設定"
+    },
+    "logout": {
+        "message": "ログアウト"
+    },
+    "password_vault": {
+        "message": "パスワードボールト"
+    },
+    "password_generator": {
+        "message": "パスワードジェネレータ"
+    },
+    "version": {
+        "message": "バージョン 1.0 © JM"
+    },
+    "item_information": {
+        "message": "アイテム情報"
+    },
+    "item_name": {
+        "message": "項目名"
+    },
+    "item_icon": {
+        "message": "項目アイコン"
+    },
+    "cancel": {
+        "message": "取消"
+    },
+    "confirm": {
+        "message": "確認"
+    },
+    "add_item": {
+        "message": "アイテムを追加"
+    },
+    "item_domain": {
+        "message": "項目ドメイン"
+    },
+    "domain": {
+        "message": "ドメイン"
+    },
+    "url": {
+        "message": "url"
+    },
+    "user_name": {
+        "message": "ユーザー名"
+    },
+    "user_password": {
+        "message": "パスワード"
+    },
+    "remarks": {
+        "message": "備考"
+    },
+    "login": {
+        "message": "ログイン"
+    },
+    "register": {
+        "message": "登録"
+    },
+    "terms": {
+        "message": "規約と条件"
+    },
+    "register_title": {
+        "message": "自分のアカウントを登録する"
+    },
+    "email": {
+        "message": "Eメール"
+    },
+    "retype_password": {
+        "message": "パスワードを再入力してください"
+    },
+    "email_address": {
+        "message": "電子メールアドレス"
+    },
+    "password_reminder_1": {
+        "message": "最小8文字および最大16文字"
+    },
+    "password_reminder_2": {
+        "message": "少なくとも1つの大文字、小文字、および数字"
+    },
+    "forgot_password": {
+        "message": "パスワードをお忘れですか"
+    },
+    "copy": {
+        "message": "クリックしてコピー"
+    },
+    "sign_up_reminder_text": {
+        "message": "アカウントをお持ちではありませんか"
+    },
+    "sign_up_reminder_button": {
+        "message": "今すぐサインアップ"
+    },
+    "terms_reminder_1": {
+        "message": "私は受け入れます"
+    },
+    "terms_reminder_2": {
+        "message": "規約と条件"
+    },
+    "terms_reminder_3": {
+        "message": "このサービスにサインアップしていただき、プライバシーポリシーを読んだことを確認してください。"
+    },
+    "photo_reminder": {
+        "message": "パスワードの確認を忘れるには、以下の写真を1枚以上選択する必要があります"
+    },
+    "terms_and_conditions_1": {
+        "message": "DoorKnockをご利用いただきありがとうございます。 あなたがここにいることを嬉しく思います。 DoorKnockにアクセスまたは使用する前に、この利用規約をよくお読みください。 これは私たちとユーザーの間の非常に重要な契約であるため、可能な限り明確にするように努めました。 便宜上、これらの条件を拘束力のない短い要約で示した後、完全な法的条件を示しました。"
+    },
+    "terms_and_conditions_2": {
+        "message": "お客様は、サイトにアクセスすることにより、これらすべての利用規約を読み、理解し、拘束されることに同意するものとします。これらの利用規約のすべてに同意しない場合は、サイトの使用が明示的に禁止されており、直ちに使用を中止する必要があります。本サイトに随時掲載される可能性のある補足利用規約または文書は、参照により本書に明示的に組み込まれます。当社は、独自の裁量により、いつでも理由を問わず、これらの利用規約を変更または修正する権利を留保します。これらの利用規約の「最終更新日」を更新することにより、変更について通知します。また、お客様は、かかる変更ごとに特定の通知を受け取る権利を放棄します。これらの利用規約を定期的に確認して、最新情報を入手するのはあなたの責任です。改訂された利用規約が掲載された日以降、サイトを継続して使用することにより、改訂された利用規約の変更が適用され、認識され、受け入れられたものとみなされます。"
+    },
+    "refresh_password": {
+        "message": "パスワードの再生成"
+    },
+    "password_length": {
+        "message": "パスワードの長さ"
+    },
+    "password_format": {
+        "message": "パスワード形式"
+    },
+    "minimum_digits": {
+        "message": "最小桁数"
+    },
+    "back": {
+        "message": "戻る"
+    },
+    "clear": {
+        "message": "クリア"
+    },
+    "history_record": {
+        "message": "履歴記録"
+    },
+    "min_letter": {
+        "message": "最小文字数"
+    },
+    "min_number": {
+        "message": "最小桁数"
+    },
+    "min_symbol": {
+        "message": "符号ビットの最小数"
+    },
+    "copied": {
+        "message": "コピー"
+    },
+    "clear_question": {
+        "message": "クリアすることを確認してください"
+    },
+    "yes": {
+        "message": "はい"
+    },
+    "no": {
+        "message": "いいえ"
+    },
+    "clear_success": {
+        "message": "正常にクリアされました"
+    },
+    "add_success": {
+        "message": "データベースに正常に追加されました"
+    },
+    "add_fail": {
+        "message": "アイテムの追加に失敗しました"
+    },
+    "nothing_to_clear": {
+        "message": "何もない"
+    },
+    "nothing_item": {
+        "message": "アイテムはありません"
+    },
+    "not_duplicate": {
+        "message": "データベースと重複しない" 
+    },
+    "duplicate": {
+        "message": "複製！ 他のパスワードを変更してください。"
+    },
+    "delete_item": {
+        "message": "アイテムを削除"
+    },
+    "confirm_to_add": {
+        "message": "Do you want to confirm the new item"
+    },
+    "confirm_to_delete": {
+        "message": "Are you sure you want to delete the item?"
+    },
+    "empty": {
+        "message": "フィールドを空白のままにすることはできません"
+    },
+    "delete_success": {
+        "message": "正常に削除されました"
+    },
+    "strong": {
+        "message": "あなたのパスワードは十分に強力です"
+    },
+    "weak": {
+        "message": "より複雑なパスワードに切り替えてください"
+    },
+    "existed_account": {
+        "message": "アカウントはすでに登録されています"
+    },
+    "wrong_email": {
+        "message": "間違ったメールフォーマット"
+    },
+    "wrong_image": {
+        "message": "間違った画像"
+    },
+    "not_match_password": {
+        "message": "パスワードが一致していません"
+    },
+    "wrong_format": {
+        "message": "間違ったパスワード形式"
+    },
+    "registration_success": {
+        "message": "登録は成功しました。メールボックスにアクセスしてアカウントを有効にしてください。"
+    },
+    "wrong_many_times": {
+        "message": "間違ったパスワードが多すぎます"
+    },
+    "wrong_password": {
+        "message": "間違ったパスワード"
+    },
+    "invalid_account": {
+        "message": "アカウントが存在しません"
+    }, 
+    "inactivated_account": {
+        "message": "アカウントが有効化されていません"
+    },
+    "confirm_to_logout": {
+        "message": "ログアウトしてもよろしいですか"
+    },
+    "add_duplicate": {
+        "message": "アカウントが重複しています"
+    },
+    "edit_item": {
+        "message": "アイテムの編集"
+    },
+    "system_error": {
+        "message": "システムエラー"
+    },
+    "confirm_to_edit": {
+        "message": "確認してもよろしいですか"
+    },
+    "edit_success": {
+        "message": "正常に編集"
+    },
+    "edit_fail": {
+        "message": "編集失敗"
+    },
+    "edit_duplicate": {
+        "message": "アカウントが重複しています"
+    },
+    "forgot_validation_success": {
+        "message": "検証メールが送信されます"
+    },
+    "forgot_validation_fail": {
+        "message": "検証は失敗し、残ります"
+    },
+    "chance": {
+        "message": "機会"
+    },
+    "send": {
+        "message": "送信"
+    },
+    "disconneted": {
+        "message": "接続エラー"
+    },
+    "permissions": {
+        "message": "不十分な権限"
+    },
+    "wrong_many_image": {
+        "message": "Wrong many times, account is locked"
+    },
+    "not_close": {
+        "message": "Please don't close this window"
+    },
+    "autofill": {
+        "message": "自動入力"
+    },
+    "autologin": {
+        "message": "自動ログイン"
+    },
+    "forgot_reminder": {
+        "message": "登録時に選んだ写真の順番に合わせてお選びください"
+    },
+    "one_minute": {
+        "message": "1分"
+    },
+    "five_minutes": {
+        "message": "5分"
+    },
+    "fifteen_minutes": {
+        "message": "15分"
+    },
+    "thirty_minutes": {
+        "message": "30分"
+    },
+    "one_hour": {
+        "message": "1時間"
+    },
+    "two_hours": {
+        "message": "2時間"
+    },
+    "five_hours": {
+        "message": "5時間"
+    },
+    "one_day": {
+        "message": "1日"
+    },
+    "never": {
+        "message": "永続"
+    },
+    "auto_lock_time": {
+        "message": "自動ロック時間"
+    },
+    "dark_light_mode": {
+        "message": "ダークモードとライトモード"
+    },
+    "app_language": {
+        "message": "システム言語"
+    },
+    "app_version": {
+        "message": "ソフトウェアバージョン"
+    },
+    "share": {
+        "message": "シェア"
+    },
+    "separator_character": {
+        "message": "区切り文字"
+    },
+    "word_count": {
+        "message": "単語数"
+    },
+    "password": {
+        "message": "パスワード"
+    },
+    "passphrase": {
+        "message": "パスフレーズ"
+    },
+    "password_type": {
+        "message": "パスワードタイプ"
+    },
+    "refresh_passphrase": {
+        "message": "パスフレーズを再生成する"
+    },
+    "refresh_image": {
+        "message": "画像を更新"
+    }
+}

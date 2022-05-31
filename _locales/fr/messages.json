@@ -1,0 +1,344 @@
+{
+    "settings": {
+      "message": "Réglages"
+    },
+    "logout": {
+        "message": "Déconnexion"
+    },
+    "password_vault": {
+        "message": "Coffre-fort"
+    },
+    "password_generator": {
+        "message": "Générateur"
+    },
+    "version": {
+        "message": "version 1.0 © JM"
+    },
+    "item_information": {
+        "message": "Informations sur l'élément"
+    },
+    "item_name": {
+        "message": "Nom de l'article"
+    },
+    "item_icon": {
+        "message": "Icône de l'élément"
+    },
+    "cancel": {
+        "message": "Annuler"
+    },
+    "confirm": {
+        "message": "Confirmer"
+    },
+    "add_item": {
+        "message": "Ajouter un item"
+    },
+    "item_domain": {
+        "message": "Domaine de l'article"
+    },
+    "domain": {
+        "message": "Domaine"
+    },
+    "url": {
+        "message": "URL"
+    },
+    "user_name": {
+        "message": "Nom d'utilisateur"
+    },
+    "user_password": {
+        "message": "Mot de passe"
+    },
+    "remarks": {
+        "message": "Remarques"
+    },
+    "login": {
+        "message": "Connexion"
+    },
+    "register": {
+        "message": "S'inscrire"
+    },
+    "terms": {
+        "message": "Termes et conditions"
+    },
+    "register_title": {
+        "message": "Enregistrez votre propre compte"
+    },
+    "email": {
+        "message": "E-mail"
+    },
+    "retype_password": {
+        "message": "Retaper le mot de passe"
+    },
+    "email_address": {
+        "message": "Adresse e-mail"
+    },
+    "password_reminder_1": {
+        "message": "minimum 8 caractères et maximum 16 caractères"
+    },
+    "password_reminder_2": {
+        "message": "Au moins une lettre majuscule, une lettre minuscule et un chiffre"
+    },
+    "forgot_password": {
+        "message": "Mot de passe oublié"
+    },
+    "copy": {
+        "message": "Cliquez pour copier"
+    },
+    "sign_up_reminder_text": {
+        "message": "Vous n'avez pas de compte"
+    },
+    "sign_up_reminder_button": {
+        "message": "S'inscrire maintenant"
+    },
+    "terms_reminder_1": {
+        "message": "J'accepte le "
+    },
+    "terms_reminder_2": {
+        "message": "termes et conditions"
+    },
+    "terms_reminder_3": {
+        "message": " pour m'inscrire à ce service, et confirme par la présente avoir lu la politique de confidentialité."
+    },
+    "photo_reminder": {
+        "message": "Vous devez choisir une ou plusieurs photos ci-dessous pour oubli de vérification du mot de passe"
+    },
+    "terms_and_conditions_1": {
+        "message": "Merci d'utiliser DoorKnock ! Nous sommes heureux que vous soyez ici. Veuillez lire attentivement cet accord de conditions d'utilisation avant d'accéder ou d'utiliser DoorKnock. Parce qu'il s'agit d'un contrat si important entre nous et nos utilisateurs, nous avons essayé de le rendre aussi clair que possible. Pour votre commodité, nous avons présenté ces termes dans un court résumé non contraignant suivi des termes juridiques complets."
+    },
+    "terms_and_conditions_2": {
+        "message": "Vous reconnaissez qu'en accédant au Site, vous avez lu, compris et accepté d'être lié par toutes ces Conditions d'utilisation. Si vous n'êtes pas d'accord avec toutes ces conditions d'utilisation, il vous est expressément interdit d'utiliser le site et vous devez cesser immédiatement de l'utiliser. Les conditions d'utilisation supplémentaires ou les documents qui peuvent être publiés sur le site de temps à autre sont expressément incorporés aux présentes par référence. Nous nous réservons le droit, à notre seule discrétion, d'apporter des changements ou des modifications à ces Conditions d'utilisation à tout moment et pour quelque raison que ce soit. Nous vous informerons de tout changement en mettant à jour la date de « dernière mise à jour » de ces conditions d'utilisation, et vous renoncez à tout droit de recevoir un avis spécifique de chacun de ces changements. Il est de votre responsabilité de revoir périodiquement ces conditions d'utilisation pour rester informé des mises à jour. Vous serez soumis à, et serez réputé avoir été informé et avoir accepté, les modifications apportées aux Conditions d'utilisation révisées par votre utilisation continue du Site après la date à laquelle ces Conditions d'utilisation révisées sont publiées."
+    },
+    "refresh_password": {
+        "message": "Régénérer le mot de passe"
+    },
+    "password_length": {
+        "message": "Longueur du mot de passe"
+    },
+    "password_format": {
+        "message": "Format du mot de passe"
+    },
+    "minimum_digits": {
+        "message": "Nombre minimal de chiffres"
+    },
+    "back": {
+        "message": "Retour"
+    },
+    "clear": {
+        "message": "Dégager"
+    },
+    "history_record": {
+        "message": "Enregistrement de l'historique"
+    },
+    "min_letter": {
+        "message": "Nombre minimal de lettres"
+    },
+    "min_number": {
+        "message": "Nombre minimal de chiffres"
+    },
+    "min_symbol": {
+        "message": "Nombre minimal de bits de signe"
+    },
+    "copied": {
+        "message": "Copié"
+    },
+    "clear_question": {
+        "message": "Veuillez confirmer pour effacer"
+    },
+    "yes": {
+        "message": "OUI"
+    },
+    "no": {
+        "message": "NON"
+    },
+    "clear_success": {
+        "message": "Effacé avec succès"
+    },
+    "add_success": {
+        "message": "Ajouté à la base de données avec succès"
+    },
+    "add_fail": {
+        "message": "Échec de l'ajout de l'élément"
+    },
+    "nothing_to_clear": {
+        "message": "Rien"
+    },
+    "nothing_item": {
+        "message": "Pas d'objet"
+    },
+    "not_duplicate": {
+        "message": "Ne pas dupliquer avec la base de données" 
+    },
+    "duplicate": {
+        "message": "Dupliquer! Veuillez changer l'autre mot de passe."
+    },
+    "delete_item": {
+        "message": "Retirer l'objet"
+    },
+    "confirm_to_add": {
+        "message": "Voulez-vous confirmer le nouvel élément"
+    },
+    "confirm_to_delete": {
+        "message": "Voulez-vous vraiment supprimer l'élément ?"
+    },
+    "empty": {
+        "message": "Le champ ne peut pas être laissé vide"
+    },
+    "delete_success": {
+        "message": "Supprimé avec succès"
+    },
+    "strong": {
+        "message": "Votre mot de passe est suffisamment fort"
+    },
+    "weak": {
+        "message": "Veuillez passer à un mot de passe plus complexe"
+    },
+    "existed_account": {
+        "message": "Compte déjà enregistré"
+    },
+    "wrong_email": {
+        "message": "Mauvais format d'e-mail"
+    },
+    "wrong_image": {
+        "message": "Mauvaise image"
+    },
+    "not_match_password": {
+        "message": "Les mots de passe ne correspondent pas"
+    },
+    "wrong_format": {
+        "message": "Format de mot de passe erroné"
+    },
+    "registration_success": {
+        "message": "L'inscription est réussie, veuillez vous rendre dans la boîte aux lettres pour activer le compte !"
+    },
+    "wrong_many_times": {
+        "message": "Trop de mauvais mots de passe"
+    },
+    "wrong_password": {
+        "message": "Mauvais mot de passe"
+    },
+    "invalid_account": {
+        "message": "Le compte n'existe pas"
+    }, 
+    "inactivated_account": {
+        "message": "Le compte n'a pas été activé"
+    },
+    "confirm_to_logout": {
+        "message": "Êtes-vous sûr de vous déconnecter"
+    },
+    "add_duplicate": {
+        "message": "Il y a un compte en double"
+    },
+    "edit_item": {
+        "message": "Modifier l'article"
+    },
+    "system_error": {
+        "message": "Erreur système"
+    },
+    "confirm_to_edit": {
+        "message": "Êtes-vous sûr de confirmer"
+    },
+    "edit_success": {
+        "message": "Modifier avec succès"
+    },
+    "edit_fail": {
+        "message": "Échec de la modification"
+    },
+    "edit_duplicate": {
+        "message": "Il y a un compte en double"
+    },
+    "forgot_validation_success": {
+        "message": "L'e-mail de validation est envoyé"
+    },
+    "forgot_validation_fail": {
+        "message": "Échec de la validation, reste"
+    },
+    "chance": {
+        "message": "chance"
+    },
+    "send": {
+        "message": "Envoyer"
+    },
+    "disconneted": {
+        "message": "Erreur de connexion"
+    },
+    "permissions": {
+        "message": "Permissions insuffisantes"
+    },
+    "wrong_many_image": {
+        "message": "Faux plusieurs fois, le compte est verrouillé"
+    },
+    "not_close": {
+        "message": "Merci de ne pas fermer cette fenêtre"
+    },
+    "autofill": {
+        "message": "Remplissage automatique"
+    },
+    "autologin": {
+        "message": "Connexion automatique"
+    },
+    "forgot_reminder": {
+        "message": "Veuillez choisir en fonction de l'ordre des photos que vous avez sélectionné lors de votre inscription"
+    },
+    "one_minute": {
+        "message": "1 minute"
+    },
+    "five_minutes": {
+        "message": "5 minutes"
+    },
+    "fifteen_minutes": {
+        "message": "15 minutes"
+    },
+    "thirty_minutes": {
+        "message": "30 minutes"
+    },
+    "one_hour": {
+        "message": "1 heure"
+    },
+    "two_hours": {
+        "message": "2 heures"
+    },
+    "five_hours": {
+        "message": "5 heures"
+    },
+    "one_day": {
+        "message": "Un jour"
+    },
+    "never": {
+        "message": "Jamais"
+    },
+    "auto_lock_time": {
+        "message": "Temps de verrouillage automatique"
+    },
+    "dark_light_mode": {
+        "message": "Mode sombre et clair"
+    },
+    "app_language": {
+        "message": "Langue du système"
+    },
+    "app_version": {
+        "message": "Une version de logiciel"
+    },
+    "share": {
+        "message": "Partager"
+    },
+    "separator_character": {
+        "message": "Caractère séparateur"
+    },
+    "word_count": {
+        "message": "Nombre de mots"
+    },
+    "password": {
+        "message": "Mot de passe"
+    },
+    "passphrase": {
+        "message": "Mot de passe"
+    },
+    "password_type": {
+        "message": "Type de mot de passe"
+    },
+    "refresh_passphrase": {
+        "message": "Régénérer la phrase de passe"
+    },
+    "refresh_image": {
+        "message": "Actualiser l'image"
+    }
+}

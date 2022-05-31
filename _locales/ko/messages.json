@@ -1,0 +1,346 @@
+{
+    "settings": {
+        "message": "설정"
+    },
+    "logout": {
+        "message": "로그 아웃"
+    },
+    "password_vault": {
+        "message": "비밀번호 보관소"
+    },
+    "password_generator": {
+        "message": "비밀번호 생성기"
+    },
+    "version": {
+        "message": "버전 1.0 © JM"
+    },
+    "item_information": {
+        "message": "아이템 정보"
+    },
+    "item_name": {
+        "message": "아이템 이름"
+    },
+    "item_icon": {
+        "message": "아이템 상"
+    },
+    "cancel": {
+        "message": "취소"
+    },
+    "confirm": {
+        "message": "확인하다"
+    },
+    "add_item": {
+        "message": "아이템 추가"
+    },
+    "item_domain": {
+        "message": "아이템 도메인"
+    },
+    "domain": {
+        "message": "도메인"
+    },
+    "url": {
+        "message": "URL"
+    },
+    "user_name": {
+        "message": "사용자 이름"
+    },
+    "user_password": {
+        "message": "비밀번호"
+    },
+    "remarks": {
+        "message": "비고"
+    },
+    "login": {
+        "message": "로그인"
+    },
+    "register": {
+        "message": "등록하다"
+    },
+    "terms": {
+        "message": "이용약관"
+    },
+    "register_title": {
+        "message": "자신의 계정 등록"
+    },
+    "email": {
+        "message": "이메일"
+    },
+    "retype_password": {
+        "message": "비밀번호 재입력"
+    },
+    "email_address": {
+        "message": "이메일 주소"
+    },
+    "password_reminder_1": {
+        "message": "최소 8자 최대 16자"
+    },
+    "password_reminder_2": {
+        "message": "하나 이상의 대문자, 소문자 및 숫자"
+    },
+    "forgot_password": {
+        "message": "비밀번호를 잊으 셨나요"
+    },
+    "copy": {
+        "message": "복사하려면 클릭"
+    },
+    "sign_up_reminder_text": {
+        "message": "계정이 없으신가요"
+    },
+    "sign_up_reminder_button": {
+        "message": "지금 등록하세요"
+    },
+    "terms_reminder_1": {
+        "message": "동의 함 "
+    },
+    "terms_reminder_2": {
+        "message": "이용약관"
+    },
+    "terms_reminder_3": {
+        "message": " 이 서비스에 가입하고 개인 정보 보호 정책을 읽었음을 확인합니다."
+    },
+    "photo_reminder": {
+        "message": "비밀번호 확인을 잊으려면 아래에서 하나 이상의 사진을 선택해야 합니다"
+    },
+    "terms_and_conditions_1": {
+        "message": "DoorKnock을 이용해 주셔서 감사합니다! 우리는 당신이 여기있어 기쁩니다. DoorKnock에 액세스하거나 사용하기 전에 이 서비스 약관을 주의 깊게 읽으십시오. 당사와 당사 사용자 간의 매우 중요한 계약이므로 최대한 명확하게 하려고 노력했습니다. 귀하의 편의를 위해 이 용어를 구속력이 없는 짧은 요약으로 제공하고 그 뒤에 전체 법적 용어를 표시했습니다."
+    },
+    "terms_and_conditions_2": {
+        "message": "귀하는 사이트에 액세스함으로써 귀하가 본 서비스 약관을 읽고 이해했으며 이에 구속된다는 데 동의합니다. 이 서비스 약관에 모두 동의하지 않으면 사이트 사용이 명시적으로 금지되며 즉시 사용을 중단해야 합니다. 사이트에 수시로 게시될 수 있는 추가 서비스 약관 또는 문서는 여기에 참조로 명시적으로 통합됩니다. 당사는 단독 재량으로 언제든지 어떤 이유로든 본 서비스 약관을 변경하거나 수정할 수 있는 권리를 보유합니다. 당사는 본 서비스 약관의 '최종 업데이트' 날짜를 업데이트하여 변경 사항에 대해 알려 드리며, 귀하는 이러한 각 변경 사항에 대한 특정 통지를 받을 권리를 포기합니다. 업데이트 정보를 받기 위해 이 서비스 약관을 주기적으로 검토하는 것은 귀하의 책임입니다. 귀하는 수정된 서비스 약관이 게시된 날짜 이후에 사이트를 계속 사용함으로써 수정된 서비스 약관의 변경 사항을 인지하고 수락한 것으로 간주됩니다."
+    },
+    "refresh_password": {
+        "message": "비밀번호 재생성"
+    },
+    "password_length": {
+        "message": "비밀번호 길이"
+    },
+    "password_format": {
+        "message": "비밀번호 형식"
+    },
+    "minimum_digits": {
+        "message": "최소 자릿수"
+    },
+    "back": {
+        "message": "뒤"
+    },
+    "clear": {
+        "message": "분명한"
+    },
+    "history_record": {
+        "message": "역사 기록"
+    },
+    "min_letter": {
+        "message": "최소 글자 수"
+    },
+    "min_number": {
+        "message": "최소 자릿수"
+    },
+    "min_symbol": {
+        "message": "최소 부호 비트 수"
+    },
+    "copied": {
+        "message": "복사됨"
+    },
+    "clear_question": {
+        "message": "지우려면 확인해주세요"
+    },
+    "yes": {
+        "message": "예"
+    },
+    "no": {
+        "message": "아니"
+    },
+    "clear_success": {
+        "message": "성공적으로 삭제됨"
+    },
+    "add_success": {
+        "message": "데이터베이스에 성공적으로 추가되었습니다."
+    },
+    "add_fail": {
+        "message": "항목을 추가하지 못했습니다."
+    },
+    "nothing_to_clear": {
+        "message": "아무것도 아님"
+    },
+    "nothing_item": {
+        "message": "항목이 없습니다"
+    },
+    "not_duplicate": {
+        "message": "데이터베이스와 중복되지 않음" 
+    },
+    "duplicate": {
+        "message": "복제하다! 다른 비밀번호를 변경해주세요."
+    },
+    "delete_item": {
+        "message": "항목 제거"
+    },
+    "confirm_to_add": {
+        "message": "새 항목을 확인하시겠습니까?"
+    },
+    "confirm_to_delete": {
+        "message": "항목을 삭제하시겠습니까?"
+    },
+    "empty": {
+        "message": "필드는 비워둘 수 없습니다."
+    },
+    "delete_success": {
+        "message": "성공적으로 삭제됨"
+    },
+    "strong": {
+        "message": "당신의 비밀번호는 충분히 강력합니다"
+    },
+    "weak": {
+        "message": "더 복잡한 암호로 전환하십시오"
+    },
+    "existed_account": {
+        "message": "이미 등록된 계정"
+    },
+    "wrong_email": {
+        "message": "잘못된 이메일 형식"
+    },
+    "wrong_image": {
+        "message": "잘못된 이미지"
+    },
+    "not_match_password": {
+        "message": "비밀번호가 일치하지 않습니다"
+    },
+    "wrong_format": {
+        "message": "잘못된 비밀번호 형식"
+    },
+    "registration_success": {
+        "message": "등록이 완료되었습니다. 사서함으로 이동하여 계정을 활성화하십시오!"
+    },
+    "wrong_many_times": {
+        "message": "잘못된 비밀번호가 너무 많습니다."
+    },
+    "wrong_password": {
+        "message": "잘못된 비밀번호"
+    },
+    "invalid_account": {
+        "message": "계정이 존재하지 않습니다"
+    }, 
+    "inactivated_account": {
+        "message": "계정이 활성화되지 않았습니다."
+    },
+    "confirm_to_logout": {
+        "message": "로그아웃하시겠습니까?"
+    },
+    "add_duplicate": {
+        "message": "중복 계정이 있습니다"
+    },
+    "edit_item": {
+        "message": "항목 편집"
+    },
+    "system_error": {
+        "message": "시스템 오류"
+    },
+    "confirm_to_edit": {
+        "message": "확인하시겠습니까?"
+    },
+    "edit_success": {
+        "message": "성공적으로 편집"
+    },
+    "edit_fail": {
+        "message": "편집 실패"
+    },
+    "edit_duplicate": {
+        "message": "중복 계정이 있습니다"
+    },
+    "forgot_validation_success": {
+        "message": "확인 이메일이 전송되었습니다"
+    },
+    "forgot_validation_fail": {
+        "message": "유효성 검사 실패, 남아 있음"
+    },
+    "chance": {
+        "message": "가능성"
+    },
+    "send": {
+        "message": "보내다"
+    },
+    "disconneted": {
+        "message": "연결 오류"
+    },
+    "permissions": {
+        "message": "권한 부족"
+    },
+    "wrong_many_image": {
+        "message": "여러 번 틀리고 계정이 잠겨 있습니다."
+    },
+    "not_close": {
+        "message": "이 창을 닫지 마세요"
+    },
+    "autofill": {
+        "message": "자동 채우기"
+    },
+    "autologin": {
+        "message": "자동 로그인"
+    },
+    "forgot_reminder": {
+        "message": "등록할 때 선택한 사진의 순서에 따라 선택하세요."
+    },
+    "one_minute": {
+        "message": "1 분"
+    },
+    "five_minutes": {
+        "message": "5분"
+    },
+    "fifteen_minutes": {
+        "message": "15분"
+    },
+    "thirty_minutes": {
+        "message": "30분"
+    },
+    "one_hour": {
+        "message": "1 시간"
+    },
+    "two_hours": {
+        "message": "2시간"
+    },
+    "five_hours": {
+        "message": "5 시간"
+    },
+    "one_day": {
+        "message": "1 일"
+    },
+    "never": {
+        "message": "절대"
+    },
+    "auto_lock_time": {
+        "message": "자동 잠금 시간"
+    },
+    "dark_light_mode": {
+        "message": "어둡고 밝은 모드"
+    },
+    "app_language": {
+        "message": "시스템 언어"
+    },
+    "app_version": {
+        "message": "소프트웨어 버전"
+    },
+    "share": {
+        "message": "공유하다"
+    },
+    "separator_character": {
+        "message": "구분 문자"
+    },
+    "word_count": {
+        "message": "단어 수"
+    },
+    "password": {
+        "message": "비밀번호"
+    },
+    "passphrase": {
+        "message": "암호"
+    },
+    "password_type": {
+        "message": "비밀번호 유형"
+    },
+    "refresh_passphrase": {
+        "message": "패스프레이즈 재생성"
+    },
+    "refresh_image": {
+        "message": "이미지 새로고침"
+    }
+}
+
+
